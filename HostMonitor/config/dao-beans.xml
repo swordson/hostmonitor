@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
  
 <beans>
-	<bean id="osDao" class="cn.bstar.gale.boss.dao.impl.OsDaoImpl">
+	<bean id="osDao" class="cn.com.powerleader.dao.impl.OsDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 </beans>

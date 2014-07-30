@@ -3,7 +3,7 @@
 
 <beans>
 
-  <bean id="snmpMgtOsService" class="cn.bstar.gale.boss.service.impl.SnmpMgtOsServiceImpl">
+  <bean id="snmpMgtOsService" class="cn.com.powerleader.service.impl.SnmpMgtOsServiceImpl">
         <property name="osDao" ref="osDao"></property>
   </bean>
 </beans>

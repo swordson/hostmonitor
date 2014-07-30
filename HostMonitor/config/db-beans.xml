@@ -8,9 +8,9 @@
 		<!-- mappingResources -->
 		<property name="mappingResources">
 			<list>
-				<value>cn/com/powerleader/model/OsInfo.hbm.xml</value>
-				<value>cn/com/powerleader/model/Domain.hbm.xml</value>
-				<value>cn/com/powerleader/model/ServerManageInfo.hbm.xml</value>
+				<value>cn.com.powerleader.model.OsInfo.hbm.xml</value>
+				<value>cn.com.powerleader.model/Domain.hbm.xml</value>
+				<value>cn.com.powerleader.model/ServerManageInfo.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
@@ -31,7 +31,7 @@
 	</bean>
   <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
     <property name="location">
-        <value>/config/snmp_configure.properties</value>
+        <value>snmp_configure.properties</value>
     </property>
   </bean>
   
@@ -44,10 +44,10 @@
   <!-- orm configuration -->
   <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName">
-      <value>org.postgresql.Driver</value>
+      <value>com.mysql.jdbc.Driver</value>
     </property>
     <property name="url">
-      <value>jdbc:postgresql://${snmp.url}</value>
+      <value>jdbc:mysql://${snmp.url}?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</value>
     </property>
     <property name="username">
       <value>${snmp.user}</value>

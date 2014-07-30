@@ -20,7 +20,7 @@ public class OsDaoImpl extends HibernateDaoSupport implements OsDao {
 	
 	@SuppressWarnings("rawtypes")
 	public List findAllOsByHql() {
-		String hql= "from cn.bstar.gale.boss.model.OsInfo os ";
+		String hql= "from cn.com.powerleader.model.OsInfo os ";
 		List result = this.getHibernateTemplate().find(hql);
 		return result;
 	}

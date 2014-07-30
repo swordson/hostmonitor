@@ -19,6 +19,7 @@
 	<classpathentry kind="lib" path="lib/spring.jar"/>
 	<classpathentry kind="lib" path="lib/vxIPMI.jar" sourcepath="E:/code/project/云&amp;大数据一体机/ipmilib-1.0.17/lib/vxIPMI-sources.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.24.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

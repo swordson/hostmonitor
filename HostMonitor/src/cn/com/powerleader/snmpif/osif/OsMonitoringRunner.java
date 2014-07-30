@@ -8,7 +8,7 @@ public class OsMonitoringRunner {
 	
 	public static void main(String[] args) {
 		OsMonitoringServer server = (OsMonitoringServer) OsBeanFactory
-				.getBean("osMonitoringServer");
+				.getBean("osMonitoringServer2");
 		server.startListener();
 	} 
 

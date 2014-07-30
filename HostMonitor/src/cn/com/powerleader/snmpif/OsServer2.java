@@ -126,8 +126,8 @@ public class OsServer2 {
 					System.out.println("cpuUserate:"+computerServiceImpl.getCpuUserate());
 					System.out.println("diskUserate:"+computerServiceImpl.getDiskUserate());
 					System.out.println("memUserate:"+computerServiceImpl.getMemUserate());
-					long[] netFlow=computerServiceImpl.getNetWorkFlow();
-					System.out.println(netFlow[0]+"---"+netFlow[1]);
+//					long[] netFlow=computerServiceImpl.getNetWorkFlow();
+//					System.out.println(netFlow[0]+"---"+netFlow[1]);
 	                System.out.println("=====================================");
 					//TODO:获取更多的关于OS的性能监控信息
 				}else{
