@@ -42,8 +42,8 @@ public class OsInfo implements java.io.Serializable {
 	private String ipmiIp;
 	private String ipmiUserName;
 	private String ipmiPassword;
-	private float flowInRate;
-	private float flowOutRate;
+	private Float flowInRate;
+	private Float flowOutRate;
 	
 	public OsInfo() {
 		super();
@@ -270,18 +270,20 @@ public class OsInfo implements java.io.Serializable {
 	public void setIpmiPassword(String ipmiPassword) {
 		this.ipmiPassword = ipmiPassword;
 	}
-	public double getFlowInRate() {
+	public Float getFlowInRate() {
 		return flowInRate;
 	}
-	public void setFlowInRate(float flowInRate) {
+	public void setFlowInRate(Float flowInRate) {
 		this.flowInRate = flowInRate;
 	}
-	public double getFlowOutRate() {
+	public Float getFlowOutRate() {
 		return flowOutRate;
 	}
-	public void setFlowOutRate(float flowOutRate) {
+	public void setFlowOutRate(Float flowOutRate) {
 		this.flowOutRate = flowOutRate;
 	}
+
+	
 
 	
 

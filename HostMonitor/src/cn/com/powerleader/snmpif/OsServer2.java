@@ -12,6 +12,9 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
+import org.springframework.scheduling.quartz.QuartzJobBean;
 
 import cn.com.powerleader.model.OsInfo;
 import cn.com.powerleader.model.SensorEntity;
@@ -25,7 +28,7 @@ import cn.com.powerleader.util.Ssh;
 import cn.com.powerleader.util.propertiesReader;
 
 
-public class OsServer2 {
+public class OsServer2  extends QuartzJobBean{
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
@@ -80,25 +83,26 @@ public class OsServer2 {
 	
 	public void startListener(final String interval) {
 	   	//logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
-		timer.schedule(new TimerTask() {
-	   		public void run() {
-	   			
-					
-						try {
-							updateOsInfo();
-							System.out.println(j++);
-						} catch (IOException | InterruptedException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-						this.cancel();
-						timer.purge();
-						System.gc();
-						startListener(interval);
-						
-	   				
-	   		}
-	   	},1000, Integer.parseInt(interval)*1000);	
+//		timer.schedule(new TimerTask() {
+//	   		public void run() {
+//	   			
+//					
+//						try {
+//							updateOsInfo();
+//							System.out.println(j++);
+//						} catch (IOException | InterruptedException e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						}
+//						this.cancel();
+//						timer.purge();
+//						System.gc();
+//						startListener(interval);
+//						
+//	   				
+//	   		}
+//	   	},1000, Integer.parseInt(interval)*1000);	
+
 	
 		//清除已经取消的TimerTask
 		
@@ -261,6 +265,13 @@ public class OsServer2 {
 	double memTotal1=Double.parseDouble(memTotal);
     double memAvail1=Double.parseDouble(memAvail);
     return (float) ((memTotal1-memAvail1)/memTotal1);	
+	}
+
+	@Override
+	protected void executeInternal(JobExecutionContext arg0)
+			throws JobExecutionException {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
