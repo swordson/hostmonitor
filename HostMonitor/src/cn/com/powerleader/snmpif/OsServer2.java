@@ -110,34 +110,98 @@ public class OsServer2 {
 			//TODO:目前验证服务器是否在线的机制不够科学
 			if(Ssh.validateSsh(os.getIpAddress1())) {
 				os.setOsStatu(ONLINE);
-				HashMap<String, String> resultmap = snmpop.getInfo(os.getSnmpUser(), os.getSnmpPasswd(),
-					os.getIpAddress1(), requestOsInfoList);
-				UserateComputerServiceImpl computerServiceImpl=new UserateComputerServiceImpl(resultmap, os);
-				IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
-				try {
-					List<SensorEntity> list = ipmiServiceIpml.doRun(
-							os.getIpmiIp(), os.getIpmiUserName(),
-							os.getIpmiPassword());
-					ipmiServiceIpml.print_list(list);
-				} catch (Exception e) {
-					
+				
+				if (Ssh.validateSsh(os.getIpAddress1())
+						|| Ssh.validateSsh(os.getIpAddress2())) {
+					os.setOsStatu(ONLINE);
+					HashMap<String, String> resultmap2 = null, resultmap=null;
+					try {
+						resultmap = snmpop.getInfo(os.getSnmpUser(),
+								os.getSnmpPasswd(), os.getIpAddress1(),
+								requestOsInfoList);
+						if (os.getIpAddress2() != null) {
+
+							resultmap2 = snmpop.getInfo(os.getSnmpUser(),
+									os.getSnmpPasswd(), os.getIpAddress2(),
+									requestOsInfoList);
+
+						}
+						os.setCurentTime(System.currentTimeMillis());
+						String ssCpuRawUser=resultmap.get("ssCpuRawUser");
+						String ssCpuRawSystem=resultmap.get("ssCpuRawSystem");
+						String ssCpuRawNice=resultmap.get("ssCpuRawNice");
+						String ssCpuRawIdle=resultmap.get("ssCpuRawIdle");
+						String ssCpuRawWait=resultmap.get("ssCpuRawWait");
+						String ssCpuRawInterrupt=resultmap.get("ssCpuRawInterrupt");
+						String ssCpuRawSoftIRQ=resultmap.get("ssCpuRawSoftIRQ");
+						float cpuUserate=getCpuUserate(ssCpuRawUser,ssCpuRawSystem,ssCpuRawIdle,ssCpuRawWait,ssCpuRawInterrupt,ssCpuRawSoftIRQ,ssCpuRawNice);
+						os.setCupUserate(cpuUserate);
+						String memAvail=resultmap.get("memAvailReal");
+						String memTotal=resultmap.get("memTotalReal");
+						float memUserate=getMemUserate(memAvail,memTotal);
+						os.setMemUserate(memUserate);
+						String diskAvail=resultmap.get("diskAvail");
+						String diskTotal=resultmap.get("diskTotal");
+						float hdUserate=getDiskUserate(diskAvail,diskTotal);
+						os.setHdUserate(hdUserate);
+						if (resultmap != null && resultmap.size() > 0) {
+							// TODO:获取更多的关于OS的性能监控信息
+							String netFlowIn;
+							String netFlowOut;
+							os.setSysUptime(resultmap.get("sysUpTime"));
+							os.setSysProcesses(resultmap.get("sysProcesses"));
+							if (resultmap2 != null && resultmap2.size() > 0) {
+								netFlowIn = resultmap2.get("netFlowIn")
+										+ resultmap.get("netFlowIn");
+								netFlowOut = resultmap2.get("netFlowOut")
+										+ resultmap.get("netFlowOut");
+
+							} else {
+								netFlowIn = resultmap.get("netFlowIn");
+								netFlowOut = resultmap.get("netFlowOut");
+								logger.info("There was a problem while connecting to "
+										+ os.getIpAddress2()
+										+ " with SNMP Protocal");
+							}
+							os.setNetFlowIn(netFlowIn);
+							os.setNetFlowOut(netFlowOut);
+						} else {
+							String netFlowIn;
+							String netFlowOut;
+							if (resultmap2 != null && resultmap2.size() > 0) {
+								netFlowIn = resultmap2.get("netFlowIn");
+								netFlowOut = resultmap2.get("netFlowOut");
+								logger.info("There was a problem while connecting to "
+										+ os.getIpAddress1()
+										+ " with SNMP Protocal");
+								os.setNetFlowIn(netFlowIn);
+								os.setNetFlowOut(netFlowOut);
+							} else {
+								logger.info("There was a problem while connecting to "
+										+ os.getIpAddress1()
+										+ "and "
+										+ os.getIpAddress2()
+										+ " with SNMP Protocal");
+							}
+
+						}
+						IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
+						try {
+							List<SensorEntity> list = ipmiServiceIpml.doRun(
+									os.getIpmiIp(), os.getIpmiUserName(),
+									os.getIpmiPassword());
+							ipmiServiceIpml.print_list(list);
+						} catch (Exception e) {
+							
+						}
+					} catch (Exception e) {
+	                 logger.info(e);
+					}
+
+				} else {
+					os.setOsStatu(OFFLINE);
 				}
-				if(resultmap != null && resultmap.size()>0) {
-					System.out.println("desc:"+resultmap.get("sysDescr"));
-					System.out.println("process:"+resultmap.get("sysProcesses"));
-					System.out.println("cpuUserate:"+computerServiceImpl.getCpuUserate());
-					System.out.println("diskUserate:"+computerServiceImpl.getDiskUserate());
-					System.out.println("memUserate:"+computerServiceImpl.getMemUserate());
-//					long[] netFlow=computerServiceImpl.getNetWorkFlow();
-//					System.out.println(netFlow[0]+"---"+netFlow[1]);
-	                System.out.println("=====================================");
-					//TODO:获取更多的关于OS的性能监控信息
-				}else{
-					//logger.info("There was a problem while connecting to "+os.getIpAddress1()+" with SNMP Protocal");
-				}
-			} else {
-				os.setOsStatu(OFFLINE);	
-			}
+				snmpMgtOsService.updateOsInfo(os);
 	
 		}
 		long endTime=System.currentTimeMillis();
@@ -146,3 +210,35 @@ public class OsServer2 {
 
 	
 }
+	private float getCpuUserate(String ssCpuRawUser, String ssCpuRawSystem,
+			String ssCpuRawIdle, String ssCpuRawWait, String ssCpuRawInterrupt,
+			String ssCpuRawSoftIRQ,String ssCpuRawNice) {
+		   
+        double ssCpuRawUser1 =  Double.parseDouble(ssCpuRawUser);
+        double ssCpuRawNice1 =  Double.parseDouble(ssCpuRawNice);
+        double ssCpuRawSystem1 = Double.parseDouble(ssCpuRawSystem);
+        double ssCpuRawIdle1 =  Double.parseDouble(ssCpuRawIdle);
+        double ssCpuRawWait1 =  Double.parseDouble(ssCpuRawWait);
+        double ssCpuRawInterrupt1 =  Double.parseDouble(ssCpuRawInterrupt);
+        double ssCpuRawSoftIRQ1 = Double.parseDouble(ssCpuRawSoftIRQ);
+        
+        double cpuRatio = 100*(ssCpuRawUser1+ssCpuRawNice1+ssCpuRawSystem1+ssCpuRawWait1+ssCpuRawInterrupt1+ssCpuRawSoftIRQ1)/(ssCpuRawUser1+ssCpuRawNice1
+                +ssCpuRawSystem1+ssCpuRawIdle1+ssCpuRawWait1+ssCpuRawInterrupt1+ssCpuRawSoftIRQ1);
+        
+		return (float) cpuRatio;
+	}
+
+	private float getDiskUserate(String diskAvail, String diskTotal) {
+		double diskTotal1=Double.parseDouble(diskTotal);
+	    double diskAvail1=Double.parseDouble(diskAvail);
+	    return (float) ((diskTotal1-diskAvail1)/diskTotal1);
+	}
+
+	private float getMemUserate(String memAvail, String memTotal) {
+	double memTotal1=Double.parseDouble(memTotal);
+    double memAvail1=Double.parseDouble(memAvail);
+    return (float) ((memTotal1-memAvail1)/memTotal1);	
+	}
+
+}
+	

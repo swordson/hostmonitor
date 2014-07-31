@@ -69,5 +69,23 @@
 		<property name="snmpPasswd" type="string">
 			<column name="snmp_passwd" length="20" />
 		</property>
+		<property name="netFlowIn" type="string">
+			<column name="netFlowIn"  />
+		</property>
+		<property name="netFlowOut" type="string">
+			<column name="netFlowOut"  />
+		</property>
+		<property name="curentTime" type="long">
+			<column name="curentTime"  />
+		</property>
+		<property name="cupUserate" type="float">
+			<column name="cupUserate"  />
+		</property>
+		<property name="memUserate" type="float">
+			<column name="memUserate"  />
+		</property>
+		<property name="hdUserate" type="float">
+			<column name="hdUserate"  />
+		</property>
 	</class>
 </hibernate-mapping>

@@ -36,9 +36,36 @@ public class OsInfo implements java.io.Serializable {
 	private Float hdUserate;
 	private String sysUptime;
 	private String sysProcesses;
+	private String netFlowIn;
+	private String netFlowOut;
+	private Long curentTime;
+	public String getIpmiIp() {
+		return ipmiIp;
+	}
+
+	public void setIpmiIp(String ipmiIp) {
+		this.ipmiIp = ipmiIp;
+	}
+
+	public String getIpmiUserName() {
+		return ipmiUserName;
+	}
+
+	public void setIpmiUserName(String ipmiUserName) {
+		this.ipmiUserName = ipmiUserName;
+	}
+
+	public String getIpmiPassword() {
+		return ipmiPassword;
+	}
+
+	public void setIpmiPassword(String ipmiPassword) {
+		this.ipmiPassword = ipmiPassword;
+	}
+
+	private String ipmiIp;
 	private String ipmiUserName;
 	private String ipmiPassword;
-	private String ipmiIp;
 
 	public OsInfo() {
 	}
@@ -286,30 +313,29 @@ public class OsInfo implements java.io.Serializable {
 	public void setSnmpPasswd(String snmpPasswd) {
 		this.snmpPasswd = snmpPasswd;
 	}
-	
-
-	public String getIpmiUserName() {
-		return ipmiUserName;
+	public String getNetFlowIn() {
+		return netFlowIn;
 	}
 
-	public void setIpmiUserName(String ipmiUserName) {
-		this.ipmiUserName = ipmiUserName;
+	public void setNetFlowIn(String netFlowIn) {
+		this.netFlowIn = netFlowIn;
 	}
 
-	public String getIpmiPassword() {
-		return ipmiPassword;
+	public String getNetFlowOut() {
+		return netFlowOut;
 	}
 
-	public void setIpmiPassword(String ipmiPassword) {
-		this.ipmiPassword = ipmiPassword;
+	public void setNetFlowOut(String netFlowOut) {
+		this.netFlowOut = netFlowOut;
 	}
 
-	public String getIpmiIp() {
-		return ipmiIp;
+	public Long getCurentTime() {
+		return curentTime;
 	}
 
-	public void setIpmiIp(String ipmiIp) {
-		this.ipmiIp = ipmiIp;
+	public void setCurentTime(Long curentTime) {
+		this.curentTime = curentTime;
 	}
+
 
 }
