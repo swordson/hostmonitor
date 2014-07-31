@@ -14,6 +14,6 @@ import cn.com.powerleader.model.OsInfo;
 public interface SnmpMgtOsService {
 	public List findAllOsByHql();
 	public void updateOsInfo(OsInfo os);
-	public OsInfo findByAddr(OsInfo os);
+
 
 }

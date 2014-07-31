@@ -168,11 +168,11 @@ public class OsServer2 {
 										+ os.getIpAddress2()
 										+ " with SNMP Protocal");
 							}
-							OsInfo info=snmpMgtOsService.findByAddr(os);
-							long time=System.currentTimeMillis()-info.getCurentTime();
+							
+							long time=System.currentTimeMillis()-os.getCurentTime();
 							os.setCurentTime(System.currentTimeMillis());
-							double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
-							double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+							double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
+							double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
 							os.setFlowInRate(flowInRate);
 							os.setFlowOutRate(flowOutRate);
 							os.setNetFlowIn(netFlowIn);
@@ -189,11 +189,11 @@ public class OsServer2 {
 								logger.info("There was a problem while connecting to "
 										+ os.getIpAddress1()
 										+ " with SNMP Protocal");
-								OsInfo info=snmpMgtOsService.findByAddr(os);
-								long time=System.currentTimeMillis()-info.getCurentTime();
+								
+								long time=System.currentTimeMillis()-os.getCurentTime();
 								os.setCurentTime(System.currentTimeMillis());
-								double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
-								double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+								double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
+								double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
 								os.setFlowInRate(flowInRate);
 								os.setFlowOutRate(flowOutRate);
 								os.setNetFlowIn(netFlowIn);

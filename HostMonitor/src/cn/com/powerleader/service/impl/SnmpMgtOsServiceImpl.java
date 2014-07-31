@@ -32,11 +32,7 @@ public class SnmpMgtOsServiceImpl implements SnmpMgtOsService {
 		osDao.updateOsInfo(os);
 	}
 
-	@Override
-	public OsInfo findByAddr(OsInfo os) {
-		OsInfo info=osDao.findBy(os.getIpAddress1());
-		return info;
-	}
+
 
 	
 

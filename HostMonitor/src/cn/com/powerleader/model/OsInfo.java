@@ -43,22 +43,6 @@ public class OsInfo implements java.io.Serializable {
 	private String ipmiUserName;
 	private String ipmiPassword;
 	private double flowInRate;
-	public double getFlowInRate() {
-		return flowInRate;
-	}
-
-	public void setFlowInRate(double flowInRate) {
-		this.flowInRate = flowInRate;
-	}
-
-	public double getFlowOutRate() {
-		return flowOutRate;
-	}
-
-	public void setFlowOutRate(double flowOutRate) {
-		this.flowOutRate = flowOutRate;
-	}
-
 	private double flowOutRate;
 	public String getIpmiIp() {
 		return ipmiIp;
@@ -354,6 +338,22 @@ public class OsInfo implements java.io.Serializable {
 
 	public void setCurentTime(Long curentTime) {
 		this.curentTime = curentTime;
+	}
+
+	public double getFlowOutRate() {
+		return flowOutRate;
+	}
+
+	public void setFlowOutRate(double flowOutRate) {
+		this.flowOutRate = flowOutRate;
+	}
+
+	public double getFlowInRate() {
+		return flowInRate;
+	}
+
+	public void setFlowInRate(double flowInRate) {
+		this.flowInRate = flowInRate;
 	}
 
 
