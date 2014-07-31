@@ -15,6 +15,15 @@
             <result name="snmpName">ADMIN</result>
             <result name="snmpPassword">12345678</result>
        </Client>
+        <Client>
+            <result name="ipAddress1">192.168.20.134</result>
+            <result name="ipAddress2"></result>
+            <result name="ipmiIp">192.168.20.138</result>
+            <result name="ipmiName">ADMIN</result>
+            <result name="ipmiPassword">12345678</result>
+            <result name="snmpName">ADMIN</result>
+            <result name="snmpPassword">12345678</result>
+       </Client>
       
       
   </package>
