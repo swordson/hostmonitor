@@ -46,7 +46,6 @@ public class OsServer2 {
 	//初始化SNMP信息查询字段
 	static {
 		requestOsInfoList = new ArrayList<String>();
-		requestOsInfoList.add("sysDescr");
 		requestOsInfoList.add("sysUpTime");
 		requestOsInfoList.add("sysUpName");
 		requestOsInfoList.add("sysUserNums");
@@ -59,9 +58,15 @@ public class OsServer2 {
 		requestOsInfoList.add("memCached");
 		requestOsInfoList.add("diskTotal");
 		requestOsInfoList.add("diskAvail");
-		requestOsInfoList.add("cpuUsage");
 		requestOsInfoList.add("netFlowIn");
 		requestOsInfoList.add("netFlowOut");
+		requestOsInfoList.add("ssCpuRawUser");
+		requestOsInfoList.add("ssCpuRawNice");
+		requestOsInfoList.add("ssCpuRawSystem");
+		requestOsInfoList.add("ssCpuRawIdle");
+		requestOsInfoList.add("ssCpuRawWait");
+		requestOsInfoList.add("ssCpuRawInterrupt");
+		requestOsInfoList.add("ssCpuRawSoftIRQ");
 		
 	}
 	
