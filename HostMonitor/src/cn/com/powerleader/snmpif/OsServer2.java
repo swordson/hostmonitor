@@ -17,7 +17,9 @@ import cn.com.powerleader.model.OsInfo;
 import cn.com.powerleader.model.SensorEntity;
 import cn.com.powerleader.service.SnmpMgtOsService;
 import cn.com.powerleader.service.impl.IpmiServiceIpml;
+import cn.com.powerleader.service.impl.SnmpMgtOsServiceImpl;
 import cn.com.powerleader.service.impl.UserateComputerServiceImpl;
+import cn.com.powerleader.util.OsBeanFactory;
 import cn.com.powerleader.util.SnmpOp;
 import cn.com.powerleader.util.Ssh;
 import cn.com.powerleader.util.propertiesReader;
@@ -99,9 +101,9 @@ public class OsServer2 {
 	
 	public void updateOsInfo() throws IOException, InterruptedException {
 		long startTime=System.currentTimeMillis();
-	    propertiesReader reader=new propertiesReader();
-	  
-		List<OsInfo> osList=reader.readXml();
+		SnmpMgtOsServiceImpl snmpMgtOsService = (SnmpMgtOsServiceImpl) OsBeanFactory
+				.getBean("snmpMgtOsService");
+		List osList = snmpMgtOsService.findAllOsByHql();
 		SnmpOp snmpop = new SnmpOp();
 		for(int i = 0; i < osList.size(); i++){
 			OsInfo os = (OsInfo)osList.get(i);
