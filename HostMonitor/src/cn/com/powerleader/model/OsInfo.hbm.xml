@@ -87,13 +87,13 @@
 		<property name="hdUserate" type="float">
 			<column name="hdUserate"  />
 		</property>
-		<property name="ipmiIp" type="String">
+		<property name="ipmiIp" type="string">
 			<column name="ipmiIp"  />
 		</property>
-		<property name="ipmiUserName" type="String">
+		<property name="ipmiUserName" type="string">
 			<column name="ipmiUserName"  />
 		</property>
-		<property name="ipmiPassword" type="String">
+		<property name="ipmiPassword" type="string">
 			<column name="ipmiPassword"  />
 		</property>
 		
