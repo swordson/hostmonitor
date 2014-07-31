@@ -171,8 +171,8 @@ public class OsServer2 {
 							
 							long time=System.currentTimeMillis()-os.getCurentTime();
 							os.setCurentTime(System.currentTimeMillis());
-							double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
-							double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
+							float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+							float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
 							os.setFlowInRate(flowInRate);
 							os.setFlowOutRate(flowOutRate);
 							os.setNetFlowIn(netFlowIn);
@@ -192,8 +192,8 @@ public class OsServer2 {
 								
 								long time=System.currentTimeMillis()-os.getCurentTime();
 								os.setCurentTime(System.currentTimeMillis());
-								double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
-								double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024;
+								float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+								float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
 								os.setFlowInRate(flowInRate);
 								os.setFlowOutRate(flowOutRate);
 								os.setNetFlowIn(netFlowIn);
