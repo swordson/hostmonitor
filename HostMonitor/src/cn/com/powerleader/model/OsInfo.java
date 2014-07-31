@@ -42,6 +42,24 @@ public class OsInfo implements java.io.Serializable {
 	private String ipmiIp;
 	private String ipmiUserName;
 	private String ipmiPassword;
+	private double flowInRate;
+	public double getFlowInRate() {
+		return flowInRate;
+	}
+
+	public void setFlowInRate(double flowInRate) {
+		this.flowInRate = flowInRate;
+	}
+
+	public double getFlowOutRate() {
+		return flowOutRate;
+	}
+
+	public void setFlowOutRate(double flowOutRate) {
+		this.flowOutRate = flowOutRate;
+	}
+
+	private double flowOutRate;
 	public String getIpmiIp() {
 		return ipmiIp;
 	}

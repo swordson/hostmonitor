@@ -96,6 +96,12 @@
 		<property name="ipmiPassword" type="string">
 			<column name="ipmiPassword"  />
 		</property>
+		<property name="flowInRate" type="double">
+			<column name="flowInRate"  />
+		</property>
+		<property name="flowOutRate" type="double">
+			<column name="flowOutRate"  />
+		</property>
 		
 	</class>
 </hibernate-mapping>

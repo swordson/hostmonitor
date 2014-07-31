@@ -15,4 +15,5 @@ import cn.com.powerleader.model.OsInfo;
 public interface OsDao {
 	public List findAllOsByHql();
 	public void updateOsInfo(OsInfo os);
+	public OsInfo findBy(String ipAddress1);
 }

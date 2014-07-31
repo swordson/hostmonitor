@@ -131,7 +131,7 @@ public class OsServer2 {
 									requestOsInfoList);
 
 						}
-						os.setCurentTime(System.currentTimeMillis());
+						
 						String ssCpuRawUser=resultmap.get("ssCpuRawUser");
 						String ssCpuRawSystem=resultmap.get("ssCpuRawSystem");
 						String ssCpuRawNice=resultmap.get("ssCpuRawNice");
@@ -168,8 +168,18 @@ public class OsServer2 {
 										+ os.getIpAddress2()
 										+ " with SNMP Protocal");
 							}
+							OsInfo info=snmpMgtOsService.findByAddr(os);
+							long time=System.currentTimeMillis()-info.getCurentTime();
+							os.setCurentTime(System.currentTimeMillis());
+							double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+							double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+							os.setFlowInRate(flowInRate);
+							os.setFlowOutRate(flowOutRate);
 							os.setNetFlowIn(netFlowIn);
 							os.setNetFlowOut(netFlowOut);
+							
+							os.setCurentTime(System.currentTimeMillis());
+							
 						} else {
 							String netFlowIn;
 							String netFlowOut;
@@ -179,6 +189,13 @@ public class OsServer2 {
 								logger.info("There was a problem while connecting to "
 										+ os.getIpAddress1()
 										+ " with SNMP Protocal");
+								OsInfo info=snmpMgtOsService.findByAddr(os);
+								long time=System.currentTimeMillis()-info.getCurentTime();
+								os.setCurentTime(System.currentTimeMillis());
+								double flowInRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+								double flowOutRate=(Double.parseDouble(netFlowIn)-Double.parseDouble(info.getNetFlowIn()))/time/1000/1024;
+								os.setFlowInRate(flowInRate);
+								os.setFlowOutRate(flowOutRate);
 								os.setNetFlowIn(netFlowIn);
 								os.setNetFlowOut(netFlowOut);
 							} else {
@@ -187,6 +204,7 @@ public class OsServer2 {
 										+ "and "
 										+ os.getIpAddress2()
 										+ " with SNMP Protocal");
+								os.setCurentTime(System.currentTimeMillis());
 							}
 
 						}
