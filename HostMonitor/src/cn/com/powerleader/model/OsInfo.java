@@ -39,6 +39,9 @@ public class OsInfo implements java.io.Serializable {
 	private String netFlowIn;
 	private String netFlowOut;
 	private Long curentTime;
+	private String ipmiIp;
+	private String ipmiUserName;
+	private String ipmiPassword;
 	public String getIpmiIp() {
 		return ipmiIp;
 	}
@@ -63,9 +66,7 @@ public class OsInfo implements java.io.Serializable {
 		this.ipmiPassword = ipmiPassword;
 	}
 
-	private String ipmiIp;
-	private String ipmiUserName;
-	private String ipmiPassword;
+
 
 	public OsInfo() {
 	}

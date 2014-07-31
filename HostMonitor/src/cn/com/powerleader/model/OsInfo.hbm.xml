@@ -87,5 +87,15 @@
 		<property name="hdUserate" type="float">
 			<column name="hdUserate"  />
 		</property>
+		<property name="ipmiIp" type="String">
+			<column name="ipmiIp"  />
+		</property>
+		<property name="ipmiUserName" type="String">
+			<column name="ipmiUserName"  />
+		</property>
+		<property name="ipmiPassword" type="String">
+			<column name="ipmiPassword"  />
+		</property>
+		
 	</class>
 </hibernate-mapping>
