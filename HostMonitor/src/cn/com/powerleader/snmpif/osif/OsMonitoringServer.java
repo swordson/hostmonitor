@@ -3,7 +3,6 @@ package cn.com.powerleader.snmpif.osif;
 import java.io.IOException;
 import java.util.Map;
 
-import cn.com.powerleader.snmpif.OsServer;
 import cn.com.powerleader.snmpif.OsServer2;
 
 

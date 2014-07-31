@@ -3,7 +3,7 @@
  
 <beans>
 
-	<bean id="osMonitoringServer" class="cn.com.powerleader.osif.OsMonitoringServer" init-method="init" destroy-method="destroy">
+	<bean id="osMonitoringServer" class="cn.com.powerleader.snmpif.osif.OsMonitoringServer" init-method="init" destroy-method="destroy">
 		<property name="hostMap">
 			<map>
 				<entry>
@@ -14,7 +14,7 @@
 		</property>
 	</bean>
 	
-	<bean id="osServer" class="cn.bstar.gale.boss.snmpif.OsServer" singleton="false">
+	<bean id="osServer" class="cn.com.powerleader.snmpif.OsServer2" singleton="false">
 		<property name="snmpMgtOsService" ref="snmpMgtOsService"/>
 	</bean>
 	
