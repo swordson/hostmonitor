@@ -5,8 +5,10 @@
 
 package cn.com.powerleader.dao.impl;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
-import cn.bstar.gale.boss.dao.OsDao;
-import cn.bstar.gale.boss.model.OsInfo;
+
+import cn.com.powerleader.dao.OsDao;
+import cn.com.powerleader.model.OsInfo;
+
 import java.util.List;
 /**
  *
