@@ -6,7 +6,10 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import cn.com.powerleader.model.SensorEntity;
+import cn.com.powerleader.snmpif.OsServer2;
 
 import com.veraxsystems.vxipmi.api.async.ConnectionHandle;
 import com.veraxsystems.vxipmi.api.sync.IpmiConnector;
@@ -42,7 +45,7 @@ public class IpmiServiceIpml {
 	private int INITIAL_CHUNK_SIZE = 8;
 	private int MAX_REPO_RECORD_ID = 65535;
 	private int CHUNK_SIZE = 64;
-
+	private Logger logger = Logger.getLogger(IpmiServiceIpml.class);
 	private int HEADER_SIZE = 5;
 	private IpmiConnector connector = null;
 	private ConnectionHandle handle = null;
@@ -196,8 +199,7 @@ public class IpmiServiceIpml {
 				}
 			}
 		} catch (Exception e) {
-			System.out
-					.println("wrong info:get all sensor reading connect teardown()!");
+			logger.info("wrong info:get all sensor reading connect teardown()!");
 			list = null;
 		} finally {
 			if (handle != null) {
@@ -208,7 +210,7 @@ public class IpmiServiceIpml {
 			connector.tearDown();
 		}
 
-		System.out.println("get all sensor reading DORUN() over!");
+		logger.info("get all sensor reading DORUN() over!");
 		return list;
 	}
 

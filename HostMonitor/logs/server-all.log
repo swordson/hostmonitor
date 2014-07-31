@@ -1,21 +1,1256 @@
-2014-07-31 15:52:29.170 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc: display name [org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc]; startup date [Thu Jul 31 15:52:29 CST 2014]; root of context hierarchy
-2014-07-31 15:52:29.214 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
-2014-07-31 15:52:29.262 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
-2014-07-31 15:52:29.285 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
-2014-07-31 15:52:29.293 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
-2014-07-31 15:52:29.299 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
-2014-07-31 15:52:29.307 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@42683e68
-2014-07-31 15:52:29.345 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
-2014-07-31 15:52:29.350 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42683e68: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
-2014-07-31 15:52:29.387 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
-2014-07-31 15:52:29.417 INFO  [org.hibernate.cfg.Environment] Hibernate 3.2.3
-2014-07-31 15:52:29.420 INFO  [org.hibernate.cfg.Environment] hibernate.properties not found
-2014-07-31 15:52:29.422 INFO  [org.hibernate.cfg.Environment] Bytecode provider name : cglib
-2014-07-31 15:52:29.426 INFO  [org.hibernate.cfg.Environment] using JDK 1.4 java.sql.Timestamp handling
-2014-07-31 15:52:29.560 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
-2014-07-31 15:52:29.616 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
-2014-07-31 15:52:29.645 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
-2014-07-31 15:52:29.648 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
-2014-07-31 15:52:29.649 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
-2014-07-31 15:52:29.649 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
-2014-07-31 15:52:29.655 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42683e68: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 15:57:20.428 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc: display name [org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc]; startup date [Thu Jul 31 15:57:20 CST 2014]; root of context hierarchy
+2014-07-31 15:57:20.475 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 15:57:20.523 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 15:57:20.546 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 15:57:20.552 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 15:57:20.559 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 15:57:20.567 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@2d8c93dc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@42683e68
+2014-07-31 15:57:20.604 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 15:57:20.610 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42683e68: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 15:57:20.643 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 15:57:20.672 INFO  [org.hibernate.cfg.Environment] Hibernate 3.2.3
+2014-07-31 15:57:20.677 INFO  [org.hibernate.cfg.Environment] hibernate.properties not found
+2014-07-31 15:57:20.679 INFO  [org.hibernate.cfg.Environment] Bytecode provider name : cglib
+2014-07-31 15:57:20.684 INFO  [org.hibernate.cfg.Environment] using JDK 1.4 java.sql.Timestamp handling
+2014-07-31 15:57:20.818 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 15:57:20.876 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 15:57:20.904 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 15:57:20.906 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 15:57:20.908 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 15:57:20.909 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 15:57:20.914 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 15:57:21.155 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 15:57:21.155 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 15:57:21.164 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 15:57:21.167 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 15:57:21.168 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 15:57:21.169 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 15:57:21.169 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 15:57:21.169 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 15:57:21.170 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 15:57:21.170 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 15:57:21.170 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 15:57:21.171 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 15:57:21.171 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 15:57:21.171 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 15:57:21.172 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 15:57:21.172 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 15:57:21.172 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 15:57:21.174 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 15:57:21.174 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 15:57:21.174 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 15:57:21.175 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 15:57:21.175 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 15:57:21.175 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 15:57:21.175 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 15:57:21.176 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 15:57:21.179 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 15:57:21.179 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 15:57:21.179 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 15:57:21.179 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 15:57:21.208 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 15:57:21.421 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 15:57:21.423 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 15:57:21.424 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 15:57:21.437 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 15:57:21.460 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 15:57:21.460 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 15:57:21.460 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 15:57:21.460 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 15:57:21.474 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 15:57:21.474 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, os_bit, created_by, server_id, date_modified, hduserate, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, netflowout]
+2014-07-31 15:57:21.474 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 15:57:21.475 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 15:57:21.491 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 15:57:21.491 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 15:57:21.491 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 15:57:21.492 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 15:57:29.645 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 15:57:29.697 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@63b031ad] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 15:57:30.708 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5496c3de: display name [org.springframework.context.support.FileSystemXmlApplicationContext@5496c3de]; startup date [Thu Jul 31 15:57:30 CST 2014]; root of context hierarchy
+2014-07-31 15:57:30.711 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 15:57:30.719 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 15:57:30.732 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 15:57:30.740 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 15:57:30.745 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 15:57:30.749 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5496c3de]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1f54362f
+2014-07-31 15:57:30.750 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 15:57:30.752 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f54362f: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 15:57:30.752 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 15:57:30.770 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 15:57:30.784 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 15:57:30.800 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 15:57:30.802 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 15:57:30.802 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 15:57:30.802 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 15:57:30.803 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 15:57:30.834 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 15:57:30.834 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 15:57:30.835 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 15:57:30.836 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 15:57:30.836 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 15:57:30.836 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 15:57:30.837 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 15:57:30.837 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 15:57:30.837 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 15:57:30.838 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 15:57:30.838 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 15:57:30.838 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 15:57:30.838 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 15:57:30.839 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 15:57:30.839 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 15:57:30.839 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 15:57:30.840 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 15:57:30.840 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 15:57:30.841 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 15:57:30.841 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 15:57:30.841 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 15:57:30.842 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 15:57:30.842 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 15:57:30.843 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 15:57:30.843 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 15:57:30.843 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 15:57:30.844 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 15:57:30.844 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 15:57:30.844 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 15:57:30.849 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 15:57:30.874 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 15:57:30.875 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 15:57:30.875 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 15:57:30.908 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 15:57:30.929 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 15:57:30.929 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 15:57:30.930 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 15:57:30.931 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 15:57:30.959 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 15:57:30.960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 15:57:30.960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 15:57:30.961 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 15:57:30.982 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 15:57:30.982 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 15:57:30.983 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 15:57:30.984 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 15:57:30.984 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 15:57:30.987 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@3a3941c8] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 15:57:31.433 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:57:31.441 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting pingPeriod: 30000
+2014-07-31 15:57:31.441 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:57:31.441 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:57:31.441 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:57:31.447 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:57:41.479 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:57:51.486 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:01.492 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:11.495 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:11.626 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:40918ms
+2014-07-31 15:58:11.697 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:58:11.698 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:11.698 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:11.698 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:58:11.698 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:58:21.715 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:31.791 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:41.811 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:51.838 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:58:51.965 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:81257ms
+2014-07-31 15:58:53.038 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@23cdfde8: display name [org.springframework.context.support.FileSystemXmlApplicationContext@23cdfde8]; startup date [Thu Jul 31 15:58:53 CST 2014]; root of context hierarchy
+2014-07-31 15:58:53.040 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 15:58:53.048 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 15:58:53.060 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 15:58:53.068 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 15:58:53.075 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 15:58:53.084 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@23cdfde8]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7e7454cc
+2014-07-31 15:58:53.086 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 15:58:53.089 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e7454cc: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 15:58:53.090 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 15:58:53.105 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 15:58:53.115 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 15:58:53.128 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 15:58:53.129 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 15:58:53.129 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 15:58:53.130 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 15:58:53.130 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 15:58:53.156 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 15:58:53.157 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 15:58:53.157 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 15:58:53.158 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 15:58:53.158 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 15:58:53.158 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 15:58:53.159 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 15:58:53.159 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 15:58:53.159 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 15:58:53.159 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 15:58:53.159 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 15:58:53.160 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 15:58:53.160 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 15:58:53.160 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 15:58:53.160 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 15:58:53.160 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 15:58:53.161 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 15:58:53.161 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 15:58:53.161 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 15:58:53.161 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 15:58:53.162 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 15:58:53.162 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 15:58:53.162 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 15:58:53.162 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 15:58:53.162 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 15:58:53.163 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 15:58:53.163 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 15:58:53.163 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 15:58:53.163 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 15:58:53.166 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 15:58:53.184 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 15:58:53.185 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 15:58:53.185 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 15:58:53.197 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 15:58:53.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 15:58:53.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 15:58:53.207 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 15:58:53.207 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 15:58:53.219 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 15:58:53.219 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 15:58:53.220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 15:58:53.220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 15:58:53.230 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 15:58:53.231 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 15:58:53.231 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 15:58:53.231 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 15:58:53.232 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 15:58:53.233 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@46009124] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 15:58:53.304 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:58:53.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:53.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:53.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:58:53.306 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:58:53.793 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:755ms
+2014-07-31 15:58:53.862 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:58:53.862 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:53.862 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:58:53.863 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:58:53.863 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:59:03.885 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:59:13.930 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:59:24.217 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:59:34.317 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:59:34.434 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:41396ms
+2014-07-31 15:59:35.528 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7d4e720: display name [org.springframework.context.support.FileSystemXmlApplicationContext@7d4e720]; startup date [Thu Jul 31 15:59:35 CST 2014]; root of context hierarchy
+2014-07-31 15:59:35.530 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 15:59:35.538 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 15:59:35.552 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 15:59:35.561 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 15:59:35.567 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 15:59:35.573 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@7d4e720]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1e36e002
+2014-07-31 15:59:35.574 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 15:59:35.575 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e36e002: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 15:59:35.575 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 15:59:35.588 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 15:59:35.597 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 15:59:35.608 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 15:59:35.609 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 15:59:35.609 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 15:59:35.609 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 15:59:35.610 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 15:59:35.626 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 15:59:35.626 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 15:59:35.627 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 15:59:35.627 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 15:59:35.628 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 15:59:35.628 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 15:59:35.628 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 15:59:35.628 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 15:59:35.629 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 15:59:35.629 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 15:59:35.630 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 15:59:35.630 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 15:59:35.630 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 15:59:35.630 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 15:59:35.630 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 15:59:35.631 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 15:59:35.631 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 15:59:35.631 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 15:59:35.631 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 15:59:35.632 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 15:59:35.632 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 15:59:35.632 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 15:59:35.632 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 15:59:35.633 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 15:59:35.633 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 15:59:35.633 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 15:59:35.633 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 15:59:35.634 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 15:59:35.634 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 15:59:35.637 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 15:59:35.654 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 15:59:35.654 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 15:59:35.654 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 15:59:35.666 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 15:59:35.675 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 15:59:35.675 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 15:59:35.676 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 15:59:35.676 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 15:59:35.692 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 15:59:35.692 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 15:59:35.692 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 15:59:35.692 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 15:59:35.707 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 15:59:35.707 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 15:59:35.708 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 15:59:35.708 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 15:59:35.709 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 15:59:35.710 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@65a05309] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 15:59:35.784 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:59:35.785 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:59:35.785 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:59:35.785 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:59:35.786 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:59:36.075 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:547ms
+2014-07-31 15:59:36.150 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 15:59:36.150 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:59:36.150 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 15:59:36.151 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 15:59:36.151 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 15:59:46.232 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 15:59:56.418 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:06.626 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:16.740 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:16.823 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:41295ms
+2014-07-31 16:00:17.921 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@47c18b3b: display name [org.springframework.context.support.FileSystemXmlApplicationContext@47c18b3b]; startup date [Thu Jul 31 16:00:17 CST 2014]; root of context hierarchy
+2014-07-31 16:00:17.923 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:00:17.930 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:00:17.940 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:00:17.947 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:00:17.953 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:00:17.961 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@47c18b3b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@60c9326f
+2014-07-31 16:00:17.962 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:00:17.965 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60c9326f: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:00:17.966 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:00:17.988 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:00:18.002 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:00:18.016 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:00:18.045 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:00:18.045 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:00:18.045 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:00:18.046 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:00:18.142 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:00:18.142 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:00:18.143 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:00:18.143 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:00:18.143 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:00:18.144 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:00:18.145 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:00:18.145 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:00:18.145 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:00:18.145 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:00:18.145 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:00:18.145 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:00:18.146 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:00:18.147 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:00:18.147 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:00:18.147 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:00:18.147 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:00:18.147 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:00:18.151 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:00:18.163 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:00:18.164 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:00:18.164 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:00:18.184 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:00:18.194 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:00:18.195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:00:18.195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:00:18.195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:00:18.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:00:18.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:00:18.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:00:18.206 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:00:18.217 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:00:18.217 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:00:18.217 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:00:18.217 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:00:18.218 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:00:18.218 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@3750e845] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:00:18.304 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:00:18.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:00:18.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:00:18.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:00:18.305 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:00:18.576 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:655ms
+2014-07-31 16:00:18.656 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:00:18.657 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:00:18.658 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:00:18.658 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:00:18.658 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:00:28.744 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:38.801 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:48.865 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:58.993 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:00:59.099 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:41178ms
+2014-07-31 16:01:00.186 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1d64649c: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1d64649c]; startup date [Thu Jul 31 16:01:00 CST 2014]; root of context hierarchy
+2014-07-31 16:01:00.187 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:01:00.190 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:01:00.196 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:01:00.199 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:01:00.204 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:01:00.208 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@1d64649c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@521f4303
+2014-07-31 16:01:00.209 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:01:00.210 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@521f4303: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:01:00.211 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:01:00.220 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:01:00.228 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:01:00.240 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:01:00.242 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:01:00.242 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:01:00.243 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:01:00.247 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:01:00.267 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:01:00.267 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:01:00.267 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:01:00.268 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:01:00.268 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:01:00.268 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:01:00.268 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:01:00.268 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:01:00.269 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:01:00.270 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:01:00.270 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:01:00.271 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:01:00.274 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:01:00.285 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:01:00.285 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:01:00.286 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:01:00.296 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:01:00.304 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:01:00.305 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:01:00.305 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:01:00.305 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:01:00.396 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:01:00.396 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:01:00.397 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:01:00.397 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:01:00.410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:01:00.410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:01:00.410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:01:00.410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:01:00.411 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:01:00.412 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@e2a40c5] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:01:00.481 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:01:00.482 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:00.482 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:00.482 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:01:00.484 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:01:00.792 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:606ms
+2014-07-31 16:01:00.869 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:01:00.870 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:00.870 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:00.870 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:01:00.870 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:01:10.985 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:01:21.022 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:01:31.053 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:01:41.129 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:01:41.217 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:41031ms
+2014-07-31 16:01:42.304 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@358be1c3: display name [org.springframework.context.support.FileSystemXmlApplicationContext@358be1c3]; startup date [Thu Jul 31 16:01:42 CST 2014]; root of context hierarchy
+2014-07-31 16:01:42.306 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:01:42.313 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:01:42.323 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:01:42.328 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:01:42.334 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:01:42.340 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@358be1c3]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f364454
+2014-07-31 16:01:42.341 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:01:42.343 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7f364454: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:01:42.344 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:01:42.356 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:01:42.362 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:01:42.369 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:01:42.370 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:01:42.370 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:01:42.371 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:01:42.371 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:01:42.386 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:01:42.386 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:01:42.387 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:01:42.387 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:01:42.387 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:01:42.388 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:01:42.389 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:01:42.389 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:01:42.389 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:01:42.389 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:01:42.389 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:01:42.389 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:01:42.390 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:01:42.390 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:01:42.390 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:01:42.390 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:01:42.390 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:01:42.391 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:01:42.394 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:01:42.404 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:01:42.404 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:01:42.404 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:01:42.420 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:01:42.426 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:01:42.426 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:01:42.426 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:01:42.427 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:01:42.435 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:01:42.435 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:01:42.435 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:01:42.435 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:01:42.442 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:01:42.443 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:01:42.443 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:01:42.443 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:01:42.443 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:01:42.444 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@3626e41a] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:01:42.507 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:01:42.508 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:42.508 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:42.508 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:01:42.508 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:01:42.801 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:497ms
+2014-07-31 16:01:42.852 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:01:42.852 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:42.853 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:01:42.853 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:01:42.853 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:01:53.035 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:03.239 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:13.317 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:23.376 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:23.448 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:41144ms
+2014-07-31 16:02:24.527 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@46f00b24: display name [org.springframework.context.support.FileSystemXmlApplicationContext@46f00b24]; startup date [Thu Jul 31 16:02:24 CST 2014]; root of context hierarchy
+2014-07-31 16:02:24.529 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:02:24.535 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:02:24.544 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:02:24.549 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:02:24.555 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:02:24.561 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@46f00b24]: org.springframework.beans.factory.support.DefaultListableBeanFactory@f940e22
+2014-07-31 16:02:24.562 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:02:24.563 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f940e22: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:02:24.563 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:02:24.572 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:02:24.581 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:02:24.588 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:02:24.589 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:02:24.589 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:02:24.589 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:02:24.590 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:02:24.597 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:02:24.597 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:02:24.597 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:02:24.598 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:02:24.598 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:02:24.598 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:02:24.598 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:02:24.598 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:02:24.598 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:02:24.598 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:02:24.599 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:02:24.600 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:02:24.600 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:02:24.601 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:02:24.601 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:02:24.601 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:02:24.601 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:02:24.607 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:02:24.616 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:02:24.616 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:02:24.617 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:02:24.622 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:02:24.628 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:02:24.629 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:02:24.629 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:02:24.629 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:02:24.636 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:02:24.637 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:02:24.637 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:02:24.637 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:02:24.644 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:02:24.644 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:02:24.644 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:02:24.644 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:02:24.645 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:02:24.645 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@58db53f4] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:02:24.708 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:02:24.709 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:02:24.709 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:02:24.709 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:02:24.709 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:02:24.998 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:471ms
+2014-07-31 16:02:25.064 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:02:25.064 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:02:25.064 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:02:25.064 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:02:25.064 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:02:35.105 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:45.132 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:02:55.167 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:05.304 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:05.416 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:40889ms
+2014-07-31 16:03:06.508 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@501aebaf: display name [org.springframework.context.support.FileSystemXmlApplicationContext@501aebaf]; startup date [Thu Jul 31 16:03:06 CST 2014]; root of context hierarchy
+2014-07-31 16:03:06.510 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:03:06.515 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:03:06.524 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:03:06.530 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:03:06.533 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:03:06.537 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@501aebaf]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4ecef841
+2014-07-31 16:03:06.537 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:03:06.539 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4ecef841: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:03:06.539 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:03:06.548 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:03:06.555 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:03:06.568 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:03:06.568 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:03:06.569 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:03:06.569 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:03:06.569 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:03:06.593 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:03:06.593 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:03:06.593 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:03:06.594 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:03:06.594 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:03:06.594 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:03:06.594 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:03:06.594 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:03:06.594 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:03:06.594 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:03:06.595 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:03:06.595 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:03:06.596 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:03:06.597 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:03:06.597 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:03:06.597 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:03:06.599 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:03:06.609 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:03:06.609 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:03:06.609 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:03:06.615 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:03:06.624 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:03:06.624 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:03:06.624 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:03:06.625 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:03:06.634 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:03:06.634 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:03:06.634 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:03:06.634 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:03:06.642 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:03:06.643 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:03:06.643 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:03:06.643 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:03:06.643 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:03:06.644 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@43ed794c] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:03:06.713 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:03:06.713 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:06.713 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:06.714 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:03:06.714 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:03:07.009 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:501ms
+2014-07-31 16:03:07.094 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:03:07.095 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:07.095 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:07.095 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:03:07.095 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:03:17.138 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:27.200 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:37.287 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:47.373 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:03:47.475 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:40967ms
+2014-07-31 16:03:48.543 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@47007bcd: display name [org.springframework.context.support.FileSystemXmlApplicationContext@47007bcd]; startup date [Thu Jul 31 16:03:48 CST 2014]; root of context hierarchy
+2014-07-31 16:03:48.545 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-07-31 16:03:48.551 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-07-31 16:03:48.559 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-07-31 16:03:48.563 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-07-31 16:03:48.567 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-07-31 16:03:48.572 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@47007bcd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@127ddf89
+2014-07-31 16:03:48.573 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-07-31 16:03:48.574 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@127ddf89: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-07-31 16:03:48.575 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-07-31 16:03:48.585 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-07-31 16:03:48.592 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-07-31 16:03:48.598 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-07-31 16:03:48.598 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-07-31 16:03:48.599 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-07-31 16:03:48.599 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-07-31 16:03:48.599 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-07-31 16:03:48.620 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-07-31 16:03:48.621 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-07-31 16:03:48.621 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-07-31 16:03:48.622 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-07-31 16:03:48.622 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-07-31 16:03:48.622 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-07-31 16:03:48.622 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-07-31 16:03:48.622 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-07-31 16:03:48.622 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-07-31 16:03:48.623 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-07-31 16:03:48.624 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-07-31 16:03:48.624 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-07-31 16:03:48.625 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-07-31 16:03:48.625 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-07-31 16:03:48.625 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-07-31 16:03:48.625 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-07-31 16:03:48.628 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-07-31 16:03:48.637 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-07-31 16:03:48.638 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-07-31 16:03:48.638 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-07-31 16:03:48.644 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-07-31 16:03:48.653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-07-31 16:03:48.653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-07-31 16:03:48.653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-07-31 16:03:48.653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-07-31 16:03:48.662 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-07-31 16:03:48.663 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-07-31 16:03:48.663 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-07-31 16:03:48.663 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-07-31 16:03:48.672 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-07-31 16:03:48.673 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-07-31 16:03:48.673 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-07-31 16:03:48.673 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-07-31 16:03:48.673 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-07-31 16:03:48.674 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2153b512] of Hibernate SessionFactory for HibernateTransactionManager
+2014-07-31 16:03:48.741 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:03:48.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:48.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:48.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:03:48.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:03:49.026 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:483ms
+2014-07-31 16:03:49.092 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-07-31 16:03:49.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:49.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-07-31 16:03:49.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-07-31 16:03:49.093 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-07-31 16:03:59.111 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2014-07-31 16:04:09.221 WARN  [com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector] Failed to receive answer, cause:
+com.veraxsystems.vxipmi.connection.ConnectionException: Command timed out
+	at com.veraxsystems.vxipmi.connection.Connection.waitForResponse(Connection.java:274)
+	at com.veraxsystems.vxipmi.connection.Connection.getAvailableCipherSuites(Connection.java:220)
+	at com.veraxsystems.vxipmi.connection.ConnectionManager.getAvailableCipherSuites(ConnectionManager.java:263)
+	at com.veraxsystems.vxipmi.api.async.IpmiAsyncConnector.getAvailableCipherSuites(IpmiAsyncConnector.java:152)
+	at com.veraxsystems.vxipmi.api.sync.IpmiConnector.getAvailableCipherSuites(IpmiConnector.java:122)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.startSession(IpmiServiceIpml.java:236)
+	at cn.com.powerleader.service.impl.IpmiServiceIpml.doRun(IpmiServiceIpml.java:68)
+	at cn.com.powerleader.snmpif.OsServer2.updateOsInfo(OsServer2.java:195)
+	at cn.com.powerleader.snmpif.OsServer2$1.run(OsServer2.java:88)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
