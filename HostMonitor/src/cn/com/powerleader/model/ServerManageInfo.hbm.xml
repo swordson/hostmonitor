@@ -4,12 +4,10 @@
 <!-- Generated 2011-12-22 9:41:03 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
 	<class name="cn.com.powerleader.model.ServerManageInfo" table="server_manage_info"
-		schema="public">
+		>
 		<id name="serverId" type="long">
 			<column name="server_id" precision="10" scale="0" />
-			<generator class="sequence">
-				<param name="sequence">SEQ_SERVER</param>
-			</generator>
+			<generator class="identity"/>
 		</id>
 		<many-to-one name="domain" class="cn.com.powerleader.model.Domain" fetch="select" lazy="false">
 			<column name="domain_id" precision="10" scale="0" unique="true" />

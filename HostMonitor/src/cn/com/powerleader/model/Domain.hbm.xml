@@ -3,12 +3,10 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2011-12-22 9:41:03 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
-	<class name="cn.com.powerleader.model.Domain" table="domain2" schema="public">
+	<class name="cn.com.powerleader.model.Domain" table="domain2">
 		<id name="domainId" type="long">
 			<column name="domain_id" precision="10" scale="0" />
-			<generator class="sequence">
-				<param name="sequence">SEQ_DOMAIN2</param>
-			</generator>
+			<generator class="identity"/>
 		</id>
 		<property name="name" type="string">
 			<column name="name" length="64" />

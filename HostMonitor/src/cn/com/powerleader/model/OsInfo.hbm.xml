@@ -3,12 +3,10 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2011-12-22 9:41:03 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
-	<class name="cn.com.powerleader.model.OsInfo" table="os_info" schema="public">
+	<class name="cn.com.powerleader.model.OsInfo" table="os_info" >
 		<id name="osId" type="long">
 			<column name="os_id" precision="10" scale="0" />
-			<generator class="sequence">
-				<param name="sequence">SEQ_OS</param>
-			</generator>
+			<generator class="identity"/>
 		</id>
 		<many-to-one name="serverManageInfo" class="cn.com.powerleader.model.ServerManageInfo"
 			fetch="select" lazy="false">
