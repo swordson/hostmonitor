@@ -28,7 +28,7 @@ import cn.com.powerleader.util.Ssh;
 import cn.com.powerleader.util.propertiesReader;
 
 
-public class OsServer2  extends QuartzJobBean{
+public class OsServer2 {
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
@@ -86,29 +86,29 @@ public class OsServer2  extends QuartzJobBean{
 	}
 	
 	public void startListener(final String interval) {
-//	   	//logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
-//		timer.schedule(new TimerTask() {
-//	   		public void run() {
-//	   			
-//					
-//						try {
-//							updateOsInfo();
-//							System.out.println(j++);
-//						} catch (IOException | InterruptedException e) {
-//							// TODO Auto-generated catch block
-//							e.printStackTrace();
-//						}
-//						this.cancel();
-//						timer.purge();
-//						System.gc();
-//						startListener(interval);
-//						
-//	   				
-//	   		}
-//	   	},1000, Integer.parseInt(interval)*1000);	
-//
-//	
-//		//清除已经取消的TimerTask
+	   	logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
+		timer.schedule(new TimerTask() {
+	   		public void run() {
+	   			
+					
+						try {
+							updateOsInfo();
+							
+						} catch (IOException | InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						this.cancel();
+						timer.purge();
+						System.gc();
+						startListener(interval);
+						
+	   				
+	   		}
+	   	},1000, Integer.parseInt(interval)*1000);	
+
+	
+		//清除已经取消的TimerTask
 		try {
 			updateOsInfo();
 		} catch (IOException e) {
@@ -124,7 +124,7 @@ public class OsServer2  extends QuartzJobBean{
 	public void updateOsInfo() throws IOException, InterruptedException {
 		System.gc();
 		long startTime=System.currentTimeMillis();
-	
+	  
 		
 		for(int i = 0; i < osList.size(); i++){
 			OsInfo os = (OsInfo)osList.get(i);
@@ -285,21 +285,6 @@ public class OsServer2  extends QuartzJobBean{
     return (float) ((memTotal1-memAvail1)/memTotal1);	
 	}
 
-	@Override
-	protected void executeInternal(JobExecutionContext arg0)
-			throws JobExecutionException {
-		// TODO Auto-generated method stub
-		try {
-			updateOsInfo();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			logger.info(e);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			logger.info(e);
-		}
-		
-	}
 	public void setTimeout(int timeout) {  
 		this.timeout = timeout;  
 		}
