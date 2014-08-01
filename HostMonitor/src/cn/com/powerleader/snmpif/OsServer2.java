@@ -36,6 +36,11 @@ public class OsServer2  extends QuartzJobBean{
 	private static ArrayList<String> requestOsInfoList;	
 	private static final Byte ONLINE = 1;
 	private static final Byte OFFLINE = 0;
+	private int timeout;   
+	//调度工厂实例化后，经过timeout时间开始执行调度  
+	public void setTimeout(int timeout) {  
+	this.timeout = timeout;  
+	}  
 	int j=0;
 	
 	public SnmpMgtOsService getSnmpMgtOsService() {
@@ -271,6 +276,15 @@ public class OsServer2  extends QuartzJobBean{
 	protected void executeInternal(JobExecutionContext arg0)
 			throws JobExecutionException {
 		// TODO Auto-generated method stub
+		try {
+			updateOsInfo();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			logger.info(e);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			logger.info(e);
+		}
 		
 	}
 
