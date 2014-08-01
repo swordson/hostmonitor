@@ -79,8 +79,7 @@ public class OsServer {
 	
 	public void updateOsInfo() throws IOException, InterruptedException {
 		long startTime=System.currentTimeMillis();
-		SnmpMgtOsServiceImpl snmpMgtOsService = (SnmpMgtOsServiceImpl) OsBeanFactory
-		.getBean("snmpMgtOsService");
+		
 		List osList = snmpMgtOsService.findAllOsByHql();
 	
 		SnmpOp snmpop = new SnmpOp();
@@ -93,7 +92,7 @@ public class OsServer {
 					os.getIpAddress1(), requestOsInfoList);
 				if(resultmap != null && resultmap.size()>0) {
 					//TODO:获取更多的关于OS的性能监控信息
-					os.setOsVersion(resultmap.get("sysDescr"));
+			
 					os.setSysUptime(resultmap.get("sysUpTime"));
 					os.setSysProcesses(resultmap.get("sysProcesses"));
 				}else{

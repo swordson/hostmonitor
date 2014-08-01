@@ -11,6 +11,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+import javax.xml.ws.ServiceMode;
+
 import org.apache.log4j.Logger;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -34,7 +36,6 @@ public class OsServer2 {
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
-	private SnmpMgtOsService snmpMgtOsService;
 	HashMap<String, String> resultmap2 = null, resultmap=null;
 	private static ArrayList<String> requestOsInfoList;	
 	private static final Byte ONLINE = 1;
@@ -42,15 +43,6 @@ public class OsServer2 {
 	private int timeout;   
 	//调度工厂实例化后，经过timeout时间开始执行调度  
 	private IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
-	
-	public SnmpMgtOsService getSnmpMgtOsService() {
-		return snmpMgtOsService;
-	}
-
-	public void setSnmpMgtOsService(SnmpMgtOsService snmpMgtOsService) {
-		this.snmpMgtOsService = snmpMgtOsService;
-	}	
-	
 	//初始化SNMP信息查询字段
 	static {
 		requestOsInfoList = new ArrayList<String>();
@@ -86,14 +78,14 @@ public class OsServer2 {
 		
 	}
 	
-	public void startListener(final String interval) {
+	public void startListener(final String interval, final SnmpMgtOsServiceImpl snmpMgtOsService2) {
 	   	logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
 		timer.schedule(new TimerTask() {
 	   		public void run() {
 	   			
 					
 						try {
-							updateOsInfo();
+							updateOsInfo(snmpMgtOsService2);
 							
 						} catch (IOException | InterruptedException e) {
 							// TODO Auto-generated catch block
@@ -102,7 +94,8 @@ public class OsServer2 {
 						this.cancel();
 						timer.purge();
 						System.gc();
-						startListener(interval);
+						startListener(interval,snmpMgtOsService2);
+	   			
 						
 	   				
 	   		}
@@ -112,11 +105,9 @@ public class OsServer2 {
 	}
 	
 	
-	public void updateOsInfo() throws IOException, InterruptedException {
+	public void updateOsInfo(SnmpMgtOsServiceImpl snmpMgtOsService) throws IOException, InterruptedException {
 		System.gc();
 		long startTime=System.currentTimeMillis();
-		snmpMgtOsService=(SnmpMgtOsServiceImpl) OsBeanFactory
-				.getBean("snmpMgtOsService");
 		SnmpOp snmpop = new SnmpOp();
 		List osList = snmpMgtOsService.findAllOsByHql();
 		for(int i = 0; i < osList.size(); i++){
