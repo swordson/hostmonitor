@@ -28,20 +28,19 @@ import cn.com.powerleader.util.Ssh;
 import cn.com.powerleader.util.propertiesReader;
 
 
-public class OsServer2 {
+public class OsServer2  extends QuartzJobBean{
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
-	private SnmpMgtOsService snmpMgtOsService=(SnmpMgtOsServiceImpl) OsBeanFactory
-	.getBean("snmpMgtOsService");
+	private SnmpMgtOsService snmpMgtOsService;
+	
 	private static ArrayList<String> requestOsInfoList;	
 	private static final Byte ONLINE = 1;
 	private static final Byte OFFLINE = 0;
 	private int timeout;   
 	//调度工厂实例化后，经过timeout时间开始执行调度  
 	private IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
-	SnmpOp snmpop = new SnmpOp();
-	List osList = snmpMgtOsService.findAllOsByHql();
+	
 	public SnmpMgtOsService getSnmpMgtOsService() {
 		return snmpMgtOsService;
 	}
@@ -124,8 +123,10 @@ public class OsServer2 {
 	public void updateOsInfo() throws IOException, InterruptedException {
 		System.gc();
 		long startTime=System.currentTimeMillis();
-	  
-		
+		snmpMgtOsService=(SnmpMgtOsServiceImpl) OsBeanFactory
+				.getBean("snmpMgtOsService");
+		SnmpOp snmpop = new SnmpOp();
+		List osList = snmpMgtOsService.findAllOsByHql();
 		for(int i = 0; i < osList.size(); i++){
 			OsInfo os = (OsInfo)osList.get(i);
 //			HashMap<String, String>resultmap = snmpop.getInfo(os.getSnmpUser(),
@@ -285,6 +286,21 @@ public class OsServer2 {
     return (float) ((memTotal1-memAvail1)/memTotal1);	
 	}
 
+	@Override
+	protected void executeInternal(JobExecutionContext arg0)
+			throws JobExecutionException {
+		// TODO Auto-generated method stub
+		try {
+			updateOsInfo();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			logger.info(e);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			logger.info(e);
+		}
+		
+	}
 	public void setTimeout(int timeout) {  
 		this.timeout = timeout;  
 		}
