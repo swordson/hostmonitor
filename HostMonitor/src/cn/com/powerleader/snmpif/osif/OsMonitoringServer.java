@@ -14,8 +14,6 @@ public class OsMonitoringServer extends OsServer2 {
 	public OsMonitoringServer() throws IOException {
 		super();
 	}
-	public void startListener() {
-		super.startListener(hostMap.get("interval"));
-	}
+	
 
 }

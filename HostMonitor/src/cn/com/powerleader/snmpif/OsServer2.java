@@ -28,12 +28,14 @@ import cn.com.powerleader.util.Ssh;
 import cn.com.powerleader.util.propertiesReader;
 
 
-public class OsServer2  extends QuartzJobBean{
+public class OsServer2 {
+	
+
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
 	private SnmpMgtOsService snmpMgtOsService;
-	
+	HashMap<String, String> resultmap2 = null, resultmap=null;
 	private static ArrayList<String> requestOsInfoList;	
 	private static final Byte ONLINE = 1;
 	private static final Byte OFFLINE = 0;
@@ -107,18 +109,8 @@ public class OsServer2  extends QuartzJobBean{
 	   	},1000, Integer.parseInt(interval)*1000);	
 
 	
-		//清除已经取消的TimerTask
-		try {
-			updateOsInfo();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 	}
+	
 	
 	public void updateOsInfo() throws IOException, InterruptedException {
 		System.gc();
@@ -139,7 +131,7 @@ public class OsServer2  extends QuartzJobBean{
 				if (Ssh.validateSsh(os.getIpAddress1())
 						|| Ssh.validateSsh(os.getIpAddress2())) {
 					os.setOsStatu(ONLINE);
-					HashMap<String, String> resultmap2 = null, resultmap=null;
+				
 					try {
 						resultmap = snmpop.getInfo(os.getSnmpUser(),
 								os.getSnmpPasswd(), os.getIpAddress1(),
@@ -286,21 +278,8 @@ public class OsServer2  extends QuartzJobBean{
     return (float) ((memTotal1-memAvail1)/memTotal1);	
 	}
 
-	@Override
-	protected void executeInternal(JobExecutionContext arg0)
-			throws JobExecutionException {
-		// TODO Auto-generated method stub
-		try {
-			updateOsInfo();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			logger.info(e);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			logger.info(e);
-		}
-		
-	}
+
+
 	public void setTimeout(int timeout) {  
 		this.timeout = timeout;  
 		}
