@@ -9,7 +9,6 @@ public class OsMonitoringRunner {
 	public static void main(String[] args) {
 		OsMonitoringServer server = (OsMonitoringServer) OsBeanFactory
 				.getBean("osMonitoringServer");
-		server.startListener();
 	} 
 
 }

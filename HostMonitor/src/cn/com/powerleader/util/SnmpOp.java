@@ -140,6 +140,7 @@ public class SnmpOp {
 		try {
 			//开始监听，创建UDP连接
 			transportMapping.listen(); 
+			
 			ResponseEvent response = snmp.send(pduV3, agent);
 		
 			if (response == null || response.getResponse() == null) {
@@ -173,6 +174,7 @@ public class SnmpOp {
 				//logger.info("SNMP Connect to "+addr+" responsePDU is null");
 			}
 			}
+			transportMapping.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

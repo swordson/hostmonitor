@@ -32,17 +32,16 @@ public class OsServer2  extends QuartzJobBean{
 	
 	private Logger logger = Logger.getLogger(OsServer2.class);
 	private final Timer timer = new Timer();
-	private SnmpMgtOsService snmpMgtOsService;
+	private SnmpMgtOsService snmpMgtOsService=(SnmpMgtOsServiceImpl) OsBeanFactory
+	.getBean("snmpMgtOsService");
 	private static ArrayList<String> requestOsInfoList;	
 	private static final Byte ONLINE = 1;
 	private static final Byte OFFLINE = 0;
 	private int timeout;   
 	//调度工厂实例化后，经过timeout时间开始执行调度  
-	public void setTimeout(int timeout) {  
-	this.timeout = timeout;  
-	}  
-	int j=0;
-	
+	private IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
+	SnmpOp snmpop = new SnmpOp();
+	List osList = snmpMgtOsService.findAllOsByHql();
 	public SnmpMgtOsService getSnmpMgtOsService() {
 		return snmpMgtOsService;
 	}
@@ -87,7 +86,7 @@ public class OsServer2  extends QuartzJobBean{
 	}
 	
 	public void startListener(final String interval) {
-	   	//logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
+//	   	//logger.info("Os status monitoring process is started, Time interval is "+ interval + " seconds");  
 //		timer.schedule(new TimerTask() {
 //	   		public void run() {
 //	   			
@@ -107,141 +106,146 @@ public class OsServer2  extends QuartzJobBean{
 //	   				
 //	   		}
 //	   	},1000, Integer.parseInt(interval)*1000);	
-
-	
-		//清除已经取消的TimerTask
-		
+//
+//	
+//		//清除已经取消的TimerTask
+//		
 	}
 	
 	public void updateOsInfo() throws IOException, InterruptedException {
+		System.gc();
 		long startTime=System.currentTimeMillis();
-		SnmpMgtOsServiceImpl snmpMgtOsService = (SnmpMgtOsServiceImpl) OsBeanFactory
-				.getBean("snmpMgtOsService");
-		List osList = snmpMgtOsService.findAllOsByHql();
-		SnmpOp snmpop = new SnmpOp();
+	
+		
 		for(int i = 0; i < osList.size(); i++){
 			OsInfo os = (OsInfo)osList.get(i);
+			HashMap<String, String>resultmap = snmpop.getInfo(os.getSnmpUser(),
+					os.getSnmpPasswd(), os.getIpAddress1(),
+					requestOsInfoList);
 			//TODO:目前验证服务器是否在线的机制不够科学
-			if(Ssh.validateSsh(os.getIpAddress1())) {
-				os.setOsStatu(ONLINE);
-				
-				if (Ssh.validateSsh(os.getIpAddress1())
-						|| Ssh.validateSsh(os.getIpAddress2())) {
-					os.setOsStatu(ONLINE);
-					HashMap<String, String> resultmap2 = null, resultmap=null;
-					try {
-						resultmap = snmpop.getInfo(os.getSnmpUser(),
-								os.getSnmpPasswd(), os.getIpAddress1(),
-								requestOsInfoList);
-						if (os.getIpAddress2() != null) {
-
-							resultmap2 = snmpop.getInfo(os.getSnmpUser(),
-									os.getSnmpPasswd(), os.getIpAddress2(),
-									requestOsInfoList);
-
-						}
-						
-						String ssCpuRawUser=resultmap.get("ssCpuRawUser");
-						String ssCpuRawSystem=resultmap.get("ssCpuRawSystem");
-						String ssCpuRawNice=resultmap.get("ssCpuRawNice");
-						String ssCpuRawIdle=resultmap.get("ssCpuRawIdle");
-						String ssCpuRawWait=resultmap.get("ssCpuRawWait");
-						String ssCpuRawInterrupt=resultmap.get("ssCpuRawInterrupt");
-						String ssCpuRawSoftIRQ=resultmap.get("ssCpuRawSoftIRQ");
-						float cpuUserate=getCpuUserate(ssCpuRawUser,ssCpuRawSystem,ssCpuRawIdle,ssCpuRawWait,ssCpuRawInterrupt,ssCpuRawSoftIRQ,ssCpuRawNice);
-						os.setCupUserate(cpuUserate);
-						String memAvail=resultmap.get("memAvailReal");
-						String memTotal=resultmap.get("memTotalReal");
-						float memUserate=getMemUserate(memAvail,memTotal);
-						os.setMemUserate(memUserate);
-						String diskAvail=resultmap.get("diskAvail");
-						String diskTotal=resultmap.get("diskTotal");
-						float hdUserate=getDiskUserate(diskAvail,diskTotal);
-						os.setHdUserate(hdUserate);
-						if (resultmap != null && resultmap.size() > 0) {
-							// TODO:获取更多的关于OS的性能监控信息
-							String netFlowIn;
-							String netFlowOut;
-							os.setSysUptime(resultmap.get("sysUpTime"));
-							os.setSysProcesses(resultmap.get("sysProcesses"));
-							if (resultmap2 != null && resultmap2.size() > 0) {
-								netFlowIn = resultmap2.get("netFlowIn")
-										+ resultmap.get("netFlowIn");
-								netFlowOut = resultmap2.get("netFlowOut")
-										+ resultmap.get("netFlowOut");
-
-							} else {
-								netFlowIn = resultmap.get("netFlowIn");
-								netFlowOut = resultmap.get("netFlowOut");
-								logger.info("There was a problem while connecting to "
-										+ os.getIpAddress2()
-										+ " with SNMP Protocal");
-							}
-							
-							long time=System.currentTimeMillis()-os.getCurentTime();
-							os.setCurentTime(System.currentTimeMillis());
-							float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
-							float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
-							os.setFlowInRate(flowInRate);
-							os.setFlowOutRate(flowOutRate);
-							os.setNetFlowIn(netFlowIn);
-							os.setNetFlowOut(netFlowOut);
-							
-							os.setCurentTime(System.currentTimeMillis());
-							
-						} else {
-							String netFlowIn;
-							String netFlowOut;
-							if (resultmap2 != null && resultmap2.size() > 0) {
-								netFlowIn = resultmap2.get("netFlowIn");
-								netFlowOut = resultmap2.get("netFlowOut");
-								logger.info("There was a problem while connecting to "
-										+ os.getIpAddress1()
-										+ " with SNMP Protocal");
-								
-								long time=System.currentTimeMillis()-os.getCurentTime();
-								os.setCurentTime(System.currentTimeMillis());
-								float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
-								float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
-								os.setFlowInRate(flowInRate);
-								os.setFlowOutRate(flowOutRate);
-								os.setNetFlowIn(netFlowIn);
-								os.setNetFlowOut(netFlowOut);
-							} else {
-								logger.info("There was a problem while connecting to "
-										+ os.getIpAddress1()
-										+ "and "
-										+ os.getIpAddress2()
-										+ " with SNMP Protocal");
-								os.setCurentTime(System.currentTimeMillis());
-							}
-
-						}
-						IpmiServiceIpml ipmiServiceIpml=new IpmiServiceIpml();
-						try {
-							List<SensorEntity> list = ipmiServiceIpml.doRun(
-									os.getIpmiIp(), os.getIpmiUserName(),
-									os.getIpmiPassword());
-							ipmiServiceIpml.print_list(list);
-						} catch (Exception e) {
-							
-						}
-					} catch (Exception e) {
-	                 logger.info(e);
-					}
-
-				} else {
-					os.setOsStatu(OFFLINE);
-				}
-				snmpMgtOsService.updateOsInfo(os);
-	
+//			if(Ssh.validateSsh(os.getIpAddress1())) {
+//				os.setOsStatu(ONLINE);
+//				
+//				if (Ssh.validateSsh(os.getIpAddress1())
+//						|| Ssh.validateSsh(os.getIpAddress2())) {
+//					os.setOsStatu(ONLINE);
+//					HashMap<String, String> resultmap2 = null, resultmap=null;
+//					try {
+//						resultmap = snmpop.getInfo(os.getSnmpUser(),
+//								os.getSnmpPasswd(), os.getIpAddress1(),
+//								requestOsInfoList);
+//						if (os.getIpAddress2() != null) {
+//
+//							resultmap2 = snmpop.getInfo(os.getSnmpUser(),
+//									os.getSnmpPasswd(), os.getIpAddress2(),
+//									requestOsInfoList);
+//
+//						}
+//						
+//						String ssCpuRawUser=resultmap.get("ssCpuRawUser");
+//						String ssCpuRawSystem=resultmap.get("ssCpuRawSystem");
+//						String ssCpuRawNice=resultmap.get("ssCpuRawNice");
+//						String ssCpuRawIdle=resultmap.get("ssCpuRawIdle");
+//						String ssCpuRawWait=resultmap.get("ssCpuRawWait");
+//						String ssCpuRawInterrupt=resultmap.get("ssCpuRawInterrupt");
+//						String ssCpuRawSoftIRQ=resultmap.get("ssCpuRawSoftIRQ");
+//						float cpuUserate=getCpuUserate(ssCpuRawUser,ssCpuRawSystem,ssCpuRawIdle,ssCpuRawWait,ssCpuRawInterrupt,ssCpuRawSoftIRQ,ssCpuRawNice);
+//						os.setCupUserate(cpuUserate);
+//						String memAvail=resultmap.get("memAvailReal");
+//						String memTotal=resultmap.get("memTotalReal");
+//						float memUserate=getMemUserate(memAvail,memTotal);
+//						os.setMemUserate(memUserate);
+//						String diskAvail=resultmap.get("diskAvail");
+//						String diskTotal=resultmap.get("diskTotal");
+//						float hdUserate=getDiskUserate(diskAvail,diskTotal);
+//						os.setHdUserate(hdUserate);
+//						if (resultmap != null && resultmap.size() > 0) {
+//							// TODO:获取更多的关于OS的性能监控信息
+//							String netFlowIn;
+//							String netFlowOut;
+//							os.setSysUptime(resultmap.get("sysUpTime"));
+//							os.setSysProcesses(resultmap.get("sysProcesses"));
+//							if (resultmap2 != null && resultmap2.size() > 0) {
+//								netFlowIn = resultmap2.get("netFlowIn")
+//										+ resultmap.get("netFlowIn");
+//								netFlowOut = resultmap2.get("netFlowOut")
+//										+ resultmap.get("netFlowOut");
+//
+//							} else {
+//								netFlowIn = resultmap.get("netFlowIn");
+//								netFlowOut = resultmap.get("netFlowOut");
+//								logger.info("There was a problem while connecting to "
+//										+ os.getIpAddress2()
+//										+ " with SNMP Protocal");
+//							}
+//							
+//							long time=System.currentTimeMillis()-os.getCurentTime();
+//							os.setCurentTime(System.currentTimeMillis());
+//							float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+//							float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+//							os.setFlowInRate(flowInRate);
+//							os.setFlowOutRate(flowOutRate);
+//							os.setNetFlowIn(netFlowIn);
+//							os.setNetFlowOut(netFlowOut);
+//							
+//							os.setCurentTime(System.currentTimeMillis());
+//							
+//						} else {
+//							String netFlowIn;
+//							String netFlowOut;
+//							if (resultmap2 != null && resultmap2.size() > 0) {
+//								netFlowIn = resultmap2.get("netFlowIn");
+//								netFlowOut = resultmap2.get("netFlowOut");
+//								logger.info("There was a problem while connecting to "
+//										+ os.getIpAddress1()
+//										+ " with SNMP Protocal");
+//								
+//								long time=System.currentTimeMillis()-os.getCurentTime();
+//								os.setCurentTime(System.currentTimeMillis());
+//								float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+//								float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
+//								os.setFlowInRate(flowInRate);
+//								os.setFlowOutRate(flowOutRate);
+//								os.setNetFlowIn(netFlowIn);
+//								os.setNetFlowOut(netFlowOut);
+//							} else {
+//								logger.info("There was a problem while connecting to "
+//										+ os.getIpAddress1()
+//										+ "and "
+//										+ os.getIpAddress2()
+//										+ " with SNMP Protocal");
+//								os.setCurentTime(System.currentTimeMillis());
+//							}
+//
+//						}
+//					
+//						try {
+//							List<SensorEntity> list = ipmiServiceIpml.doRun(
+//									os.getIpmiIp(), os.getIpmiUserName(),
+//									os.getIpmiPassword());
+//							ipmiServiceIpml.print_list(list);
+//						} catch (Exception e) {
+//							
+//						}
+//					} catch (Exception e) {
+//	                 logger.info(e);
+//					}
+//
+//				} else {
+//					os.setOsStatu(OFFLINE);
+//				}
+//			    os.setSysUptime(resultmap.get("sysUpTime"));
+//				snmpMgtOsService.updateOsInfo(os);
+//	
 		}
 		long endTime=System.currentTimeMillis();
 		logger.info("The monitor takes:"+(endTime-startTime)+"ms");
 	}
+	
+	
 
 	
-}
+
 	private float getCpuUserate(String ssCpuRawUser, String ssCpuRawSystem,
 			String ssCpuRawIdle, String ssCpuRawWait, String ssCpuRawInterrupt,
 			String ssCpuRawSoftIRQ,String ssCpuRawNice) {
@@ -287,6 +291,17 @@ public class OsServer2  extends QuartzJobBean{
 		}
 		
 	}
+	public void setTimeout(int timeout) {  
+		this.timeout = timeout;  
+		}
+
+	public IpmiServiceIpml getIpmiServiceIpml() {
+		return ipmiServiceIpml;
+	}
+
+	public void setIpmiServiceIpml(IpmiServiceIpml ipmiServiceIpml) {
+		this.ipmiServiceIpml = ipmiServiceIpml;
+	}  
 
 }
 	
