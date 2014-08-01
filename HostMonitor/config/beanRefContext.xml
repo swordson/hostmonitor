@@ -6,5 +6,5 @@
 	<import resource="dao-beans.xml"/>
 	<import resource="service-beans.xml"/>
 	<import resource="interface-beans.xml"/>
-	<import resource="time-task.xml"/>
+	
 </beans>
