@@ -1,7 +1,8 @@
 package cn.com.powerleader.snmpif.osif;
+
+import cn.com.powerleader.util.OsBeanFactory;
   
-import cn.bstar.gale.boss.util.OsBeanFactory;
-import cn.bstar.gale.boss.snmpif.osif.OsMonitoringServer;
+
 
 public class OsMonitoringRunner {
 	
