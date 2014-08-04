@@ -134,6 +134,7 @@ public class OsServer2 {
 
 						}
 						
+						
 						String ssCpuRawUser=resultmap.get("ssCpuRawUser");
 						String ssCpuRawSystem=resultmap.get("ssCpuRawSystem");
 						String ssCpuRawNice=resultmap.get("ssCpuRawNice");
@@ -156,7 +157,7 @@ public class OsServer2 {
 							String netFlowIn;
 							String netFlowOut;
 							os.setSysUptime(resultmap.get("sysUpTime"));
-							os.setSysProcesses(resultmap.get("sysProcesses"));
+							
 							if (resultmap2 != null && resultmap2.size() > 0) {
 								netFlowIn = resultmap2.get("netFlowIn")
 										+ resultmap.get("netFlowIn");
@@ -172,7 +173,7 @@ public class OsServer2 {
 							}
 							
 							long time=System.currentTimeMillis()-os.getCurentTime();
-							os.setCurentTime(System.currentTimeMillis());
+							
 							float flowInRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
 							float flowOutRate=(float) ((Double.parseDouble(netFlowIn)-Double.parseDouble(os.getNetFlowIn()))/time/1000/1024);
 							os.setFlowInRate(flowInRate);
@@ -226,7 +227,8 @@ public class OsServer2 {
 				} else {
 					os.setOsStatu(OFFLINE);
 				}
-			   
+				os.setSysProcesses(resultmap.get("sysProcesses"));
+				os.setCurentTime(System.currentTimeMillis());
 				snmpMgtOsService.updateOsInfo(os);
 	
 		}
