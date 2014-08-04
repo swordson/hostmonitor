@@ -116,8 +116,7 @@ public class OsServer2 {
 //					os.getSnmpPasswd(), os.getIpAddress1(),
 //					requestOsInfoList);
 			//TODO:目前验证服务器是否在线的机制不够科学
-			if(Ssh.validateSsh(os.getIpAddress1())) {
-				os.setOsStatu(ONLINE);
+			
 				
 				if (Ssh.validateSsh(os.getIpAddress1())
 						|| Ssh.validateSsh(os.getIpAddress2())) {
@@ -235,7 +234,7 @@ public class OsServer2 {
 		logger.info("The monitor takes:"+(endTime-startTime)+"ms");
 	}
 	
-	}
+	
 
 	
 
