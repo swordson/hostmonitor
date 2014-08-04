@@ -1,147 +1,147 @@
-2014-08-04 16:20:01.938 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@d1af848: display name [org.springframework.context.support.FileSystemXmlApplicationContext@d1af848]; startup date [Mon Aug 04 16:20:01 CST 2014]; root of context hierarchy
-2014-08-04 16:20:02.009 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
-2014-08-04 16:20:02.083 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
-2014-08-04 16:20:02.113 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
-2014-08-04 16:20:02.122 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
-2014-08-04 16:20:02.130 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
-2014-08-04 16:20:02.141 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@d1af848]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2b066718
-2014-08-04 16:20:02.191 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
-2014-08-04 16:20:02.199 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b066718: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
-2014-08-04 16:20:02.246 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
-2014-08-04 16:20:02.277 INFO  [org.hibernate.cfg.Environment] Hibernate 3.2.3
-2014-08-04 16:20:02.282 INFO  [org.hibernate.cfg.Environment] hibernate.properties not found
-2014-08-04 16:20:02.285 INFO  [org.hibernate.cfg.Environment] Bytecode provider name : cglib
-2014-08-04 16:20:02.289 INFO  [org.hibernate.cfg.Environment] using JDK 1.4 java.sql.Timestamp handling
-2014-08-04 16:20:02.484 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
-2014-08-04 16:20:02.558 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
-2014-08-04 16:20:02.586 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
-2014-08-04 16:20:02.608 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.SensorEntity -> os_sensorenitity
-2014-08-04 16:20:02.619 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
-2014-08-04 16:20:02.620 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.OsInfo.sensorList -> os_sensorenitity
-2014-08-04 16:20:02.621 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
-2014-08-04 16:20:02.622 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
-2014-08-04 16:20:02.628 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
-2014-08-04 16:20:02.913 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
-2014-08-04 16:20:02.914 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
-2014-08-04 16:20:02.925 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
-2014-08-04 16:20:02.928 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
-2014-08-04 16:20:02.930 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-2014-08-04 16:20:02.931 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
-2014-08-04 16:20:02.931 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
-2014-08-04 16:20:02.931 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
-2014-08-04 16:20:02.932 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
-2014-08-04 16:20:02.933 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
-2014-08-04 16:20:02.934 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
-2014-08-04 16:20:02.934 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
-2014-08-04 16:20:02.935 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
-2014-08-04 16:20:02.936 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
-2014-08-04 16:20:02.936 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
-2014-08-04 16:20:02.936 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
-2014-08-04 16:20:02.937 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-2014-08-04 16:20:02.939 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
-2014-08-04 16:20:02.940 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
-2014-08-04 16:20:02.940 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
-2014-08-04 16:20:02.940 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
-2014-08-04 16:20:02.941 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
-2014-08-04 16:20:02.941 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
-2014-08-04 16:20:02.942 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
-2014-08-04 16:20:02.942 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
-2014-08-04 16:20:02.946 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
-2014-08-04 16:20:02.947 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
-2014-08-04 16:20:02.947 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
-2014-08-04 16:20:02.948 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
-2014-08-04 16:20:02.986 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
-2014-08-04 16:20:03.248 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
-2014-08-04 16:20:03.250 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
-2014-08-04 16:20:03.251 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
-2014-08-04 16:20:03.268 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
-2014-08-04 16:20:03.302 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
-2014-08-04 16:20:03.303 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
-2014-08-04 16:20:03.303 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
-2014-08-04 16:20:03.303 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
-2014-08-04 16:20:03.324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
-2014-08-04 16:20:03.324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, flowinrate, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, flowoutrate, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
-2014-08-04 16:20:03.325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
-2014-08-04 16:20:03.325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
-2014-08-04 16:20:03.326 INFO  [org.hibernate.tool.hbm2ddl.DatabaseMetadata] table not found: os_sensorenitity
-2014-08-04 16:20:03.340 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
-2014-08-04 16:20:03.341 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
-2014-08-04 16:20:03.341 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
-2014-08-04 16:20:03.342 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
-2014-08-04 16:20:03.343 INFO  [org.hibernate.tool.hbm2ddl.DatabaseMetadata] table not found: os_sensorenitity
-2014-08-04 16:20:06.016 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
-2014-08-04 16:20:06.046 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@533f452d] of Hibernate SessionFactory for HibernateTransactionManager
-2014-08-04 16:20:06.069 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1c160291: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1c160291]; startup date [Mon Aug 04 16:20:06 CST 2014]; root of context hierarchy
-2014-08-04 16:20:06.071 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
-2014-08-04 16:20:06.076 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
-2014-08-04 16:20:06.086 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
-2014-08-04 16:20:06.093 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
-2014-08-04 16:20:06.099 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
-2014-08-04 16:20:06.107 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@1c160291]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4c74da4e
-2014-08-04 16:20:06.108 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
-2014-08-04 16:20:06.110 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c74da4e: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
-2014-08-04 16:20:06.111 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
-2014-08-04 16:20:06.156 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
-2014-08-04 16:20:06.178 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
-2014-08-04 16:20:06.298 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
-2014-08-04 16:20:06.315 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.SensorEntity -> os_sensorenitity
-2014-08-04 16:20:06.316 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
-2014-08-04 16:20:06.316 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.OsInfo.sensorList -> os_sensorenitity
-2014-08-04 16:20:06.317 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
-2014-08-04 16:20:06.317 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
-2014-08-04 16:20:06.319 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
-2014-08-04 16:20:06.341 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
-2014-08-04 16:20:06.342 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
-2014-08-04 16:20:06.342 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
-2014-08-04 16:20:06.343 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
-2014-08-04 16:20:06.344 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-2014-08-04 16:20:06.345 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
-2014-08-04 16:20:06.345 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
-2014-08-04 16:20:06.345 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
-2014-08-04 16:20:06.345 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
-2014-08-04 16:20:06.346 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
-2014-08-04 16:20:06.346 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
-2014-08-04 16:20:06.346 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
-2014-08-04 16:20:06.347 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
-2014-08-04 16:20:06.347 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
-2014-08-04 16:20:06.347 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
-2014-08-04 16:20:06.348 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
-2014-08-04 16:20:06.348 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-2014-08-04 16:20:06.348 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
-2014-08-04 16:20:06.349 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
-2014-08-04 16:20:06.349 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
-2014-08-04 16:20:06.349 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
-2014-08-04 16:20:06.350 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
-2014-08-04 16:20:06.350 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
-2014-08-04 16:20:06.350 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
-2014-08-04 16:20:06.351 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
-2014-08-04 16:20:06.351 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
-2014-08-04 16:20:06.351 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
-2014-08-04 16:20:06.351 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
-2014-08-04 16:20:06.352 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
-2014-08-04 16:20:06.354 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
-2014-08-04 16:20:06.421 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
-2014-08-04 16:20:06.422 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
-2014-08-04 16:20:06.422 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
-2014-08-04 16:20:06.453 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
-2014-08-04 16:20:06.469 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
-2014-08-04 16:20:06.469 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
-2014-08-04 16:20:06.469 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
-2014-08-04 16:20:06.470 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
-2014-08-04 16:20:06.523 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
-2014-08-04 16:20:06.524 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, flowinrate, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, flowoutrate, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
-2014-08-04 16:20:06.524 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
-2014-08-04 16:20:06.524 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
-2014-08-04 16:20:06.572 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_sensorenitity
-2014-08-04 16:20:06.573 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [id, sensorname, reading, os_sensor, sensorid, ip]
-2014-08-04 16:20:06.573 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkecd148549940fbc]
-2014-08-04 16:20:06.573 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkecd148549940fbc, primary]
-2014-08-04 16:20:06.596 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
-2014-08-04 16:20:06.596 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
-2014-08-04 16:20:06.597 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
-2014-08-04 16:20:06.598 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
-2014-08-04 16:20:06.599 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
-2014-08-04 16:20:06.600 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2e587374] of Hibernate SessionFactory for HibernateTransactionManager
-2014-08-04 16:20:06.606 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
-2014-08-04 16:20:07.820 ERROR [org.hibernate.property.BasicPropertyAccessor] IllegalArgumentException in class: cn.com.powerleader.model.OsInfo, setter method of property: sensorList
-2014-08-04 16:20:07.820 ERROR [org.hibernate.property.BasicPropertyAccessor] expected type: java.util.List, actual value: org.hibernate.collection.PersistentSet
+2014-08-04 16:36:58.785 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@4b9f657: display name [org.springframework.context.support.FileSystemXmlApplicationContext@4b9f657]; startup date [Mon Aug 04 16:36:58 CST 2014]; root of context hierarchy
+2014-08-04 16:36:58.867 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-08-04 16:36:58.935 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-08-04 16:36:58.973 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-08-04 16:36:58.986 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-08-04 16:36:58.997 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-08-04 16:36:59.006 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@4b9f657]: org.springframework.beans.factory.support.DefaultListableBeanFactory@108ead47
+2014-08-04 16:36:59.074 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-08-04 16:36:59.083 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@108ead47: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-08-04 16:36:59.142 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-08-04 16:36:59.171 INFO  [org.hibernate.cfg.Environment] Hibernate 3.2.3
+2014-08-04 16:36:59.175 INFO  [org.hibernate.cfg.Environment] hibernate.properties not found
+2014-08-04 16:36:59.177 INFO  [org.hibernate.cfg.Environment] Bytecode provider name : cglib
+2014-08-04 16:36:59.180 INFO  [org.hibernate.cfg.Environment] using JDK 1.4 java.sql.Timestamp handling
+2014-08-04 16:36:59.409 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-08-04 16:36:59.486 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-08-04 16:36:59.516 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-08-04 16:36:59.540 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.SensorEntity -> os_sensorenitity
+2014-08-04 16:36:59.541 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-08-04 16:36:59.542 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.OsInfo.sensorList -> os_sensorenitity
+2014-08-04 16:36:59.543 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-08-04 16:36:59.544 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-08-04 16:36:59.560 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-08-04 16:36:59.883 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-08-04 16:36:59.884 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-08-04 16:36:59.896 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-08-04 16:36:59.900 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-08-04 16:36:59.901 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-08-04 16:36:59.901 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-08-04 16:36:59.902 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-08-04 16:36:59.902 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-08-04 16:36:59.902 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-08-04 16:36:59.904 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-08-04 16:36:59.904 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-08-04 16:36:59.905 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-08-04 16:36:59.905 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-08-04 16:36:59.906 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-08-04 16:36:59.906 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-08-04 16:36:59.907 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-08-04 16:36:59.907 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-08-04 16:36:59.910 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-08-04 16:36:59.911 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-08-04 16:36:59.911 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-08-04 16:36:59.912 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-08-04 16:36:59.912 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-08-04 16:36:59.913 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-08-04 16:36:59.913 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-08-04 16:36:59.914 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-08-04 16:36:59.919 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-08-04 16:36:59.920 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-08-04 16:36:59.921 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-08-04 16:36:59.921 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-08-04 16:36:59.973 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-08-04 16:37:00.312 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-08-04 16:37:00.315 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-08-04 16:37:00.315 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-08-04 16:37:00.334 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-08-04 16:37:00.390 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-08-04 16:37:00.390 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-08-04 16:37:00.390 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-08-04 16:37:00.391 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-08-04 16:37:00.410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-08-04 16:37:00.411 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, flowinrate, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, flowoutrate, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-08-04 16:37:00.411 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-08-04 16:37:00.412 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-08-04 16:37:00.423 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_sensorenitity
+2014-08-04 16:37:00.423 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [id, sensorname, reading, os_sensor, sensorid, ip]
+2014-08-04 16:37:00.423 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkecd148549940fbc]
+2014-08-04 16:37:00.423 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkecd148549940fbc, primary]
+2014-08-04 16:37:00.439 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-08-04 16:37:00.439 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-08-04 16:37:00.439 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-08-04 16:37:00.439 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-08-04 16:37:04.394 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-08-04 16:37:04.442 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@75cebaf] of Hibernate SessionFactory for HibernateTransactionManager
+2014-08-04 16:37:04.589 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@df6abc4: display name [org.springframework.context.support.FileSystemXmlApplicationContext@df6abc4]; startup date [Mon Aug 04 16:37:04 CST 2014]; root of context hierarchy
+2014-08-04 16:37:04.621 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\beanRefContext.xml]
+2014-08-04 16:37:04.859 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\db-beans.xml]
+2014-08-04 16:37:05.170 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\dao-beans.xml]
+2014-08-04 16:37:05.385 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\service-beans.xml]
+2014-08-04 16:37:05.621 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [E:\resposity\ipmi\HostMonitor\config\interface-beans.xml]
+2014-08-04 16:37:05.864 INFO  [org.springframework.context.support.FileSystemXmlApplicationContext] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@df6abc4]: org.springframework.beans.factory.support.DefaultListableBeanFactory@76261368
+2014-08-04 16:37:05.890 INFO  [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] Loading properties file from file [E:\resposity\ipmi\HostMonitor\config\snmp_configure.properties]
+2014-08-04 16:37:05.939 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@76261368: defining beans [sessionFactory,propertyConfigurer,transactionManager,dataSource,osDao,snmpMgtOsService,osMonitoringServer,osServer]; root of factory hierarchy
+2014-08-04 16:37:05.964 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-08-04 16:37:06.865 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.OsInfo -> os_info
+2014-08-04 16:37:07.684 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.Domain -> domain2
+2014-08-04 16:37:08.517 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.ServerManageInfo -> server_manage_info
+2014-08-04 16:37:09.233 INFO  [org.hibernate.cfg.HbmBinder] Mapping class: cn.com.powerleader.model.SensorEntity -> os_sensorenitity
+2014-08-04 16:37:09.264 INFO  [org.springframework.orm.hibernate3.LocalSessionFactoryBean] Building new Hibernate SessionFactory
+2014-08-04 16:37:09.274 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.OsInfo.sensorList -> os_sensorenitity
+2014-08-04 16:37:09.292 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.Domain.domains -> domain2
+2014-08-04 16:37:09.310 INFO  [org.hibernate.cfg.HbmBinder] Mapping collection: cn.com.powerleader.model.ServerManageInfo.osInfos -> os_info
+2014-08-04 16:37:09.363 INFO  [org.hibernate.connection.ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-08-04 16:37:09.772 INFO  [org.hibernate.cfg.SettingsFactory] RDBMS: MySQL, version: 5.6.10
+2014-08-04 16:37:09.784 INFO  [org.hibernate.cfg.SettingsFactory] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.24 ( Revision: ${bzr.revision-id} )
+2014-08-04 16:37:09.798 INFO  [org.hibernate.dialect.Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+2014-08-04 16:37:09.832 INFO  [org.hibernate.transaction.TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions)
+2014-08-04 16:37:09.844 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-08-04 16:37:09.857 INFO  [org.hibernate.cfg.SettingsFactory] Automatic flush during beforeCompletion(): disabled
+2014-08-04 16:37:09.876 INFO  [org.hibernate.cfg.SettingsFactory] Automatic session close at end of transaction: disabled
+2014-08-04 16:37:09.891 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch size: 15
+2014-08-04 16:37:09.908 INFO  [org.hibernate.cfg.SettingsFactory] JDBC batch updates for versioned data: disabled
+2014-08-04 16:37:09.925 INFO  [org.hibernate.cfg.SettingsFactory] Scrollable result sets: enabled
+2014-08-04 16:37:09.937 INFO  [org.hibernate.cfg.SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+2014-08-04 16:37:09.949 INFO  [org.hibernate.cfg.SettingsFactory] Connection release mode: on_close
+2014-08-04 16:37:09.960 INFO  [org.hibernate.cfg.SettingsFactory] Maximum outer join fetch depth: 2
+2014-08-04 16:37:09.973 INFO  [org.hibernate.cfg.SettingsFactory] Default batch fetch size: 1
+2014-08-04 16:37:09.990 INFO  [org.hibernate.cfg.SettingsFactory] Generate SQL with comments: disabled
+2014-08-04 16:37:10.013 INFO  [org.hibernate.cfg.SettingsFactory] Order SQL updates by primary key: disabled
+2014-08-04 16:37:10.032 INFO  [org.hibernate.cfg.SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-08-04 16:37:10.043 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+2014-08-04 16:37:10.057 INFO  [org.hibernate.cfg.SettingsFactory] Query language substitutions: {}
+2014-08-04 16:37:10.070 INFO  [org.hibernate.cfg.SettingsFactory] JPA-QL strict compliance: disabled
+2014-08-04 16:37:10.086 INFO  [org.hibernate.cfg.SettingsFactory] Second-level cache: enabled
+2014-08-04 16:37:10.102 INFO  [org.hibernate.cfg.SettingsFactory] Query cache: disabled
+2014-08-04 16:37:10.120 INFO  [org.hibernate.cfg.SettingsFactory] Cache provider: org.hibernate.cache.NoCacheProvider
+2014-08-04 16:37:10.140 INFO  [org.hibernate.cfg.SettingsFactory] Optimize cache for minimal puts: disabled
+2014-08-04 16:37:10.160 INFO  [org.hibernate.cfg.SettingsFactory] Structured second-level cache entries: disabled
+2014-08-04 16:37:10.174 INFO  [org.hibernate.cfg.SettingsFactory] Statistics: disabled
+2014-08-04 16:37:10.187 INFO  [org.hibernate.cfg.SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+2014-08-04 16:37:10.199 INFO  [org.hibernate.cfg.SettingsFactory] Default entity-mode: pojo
+2014-08-04 16:37:10.215 INFO  [org.hibernate.cfg.SettingsFactory] Named query checking : enabled
+2014-08-04 16:37:10.342 INFO  [org.hibernate.impl.SessionFactoryImpl] building session factory
+2014-08-04 16:37:12.003 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+2014-08-04 16:37:12.021 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] Running hbm2ddl schema update
+2014-08-04 16:37:12.034 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] fetching database metadata
+2014-08-04 16:37:12.375 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] updating schema
+2014-08-04 16:37:12.614 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.domain2
+2014-08-04 16:37:12.627 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [domain_depth, description, name, domain_id, is_leaf, parent_id, is_occupied]
+2014-08-04 16:37:12.640 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk6d86c3ee52c9a629, fk6d86c3eeb579ebbc]
+2014-08-04 16:37:12.654 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk6d86c3ee52c9a629, primary, fk6d86c3eeb579ebbc]
+2014-08-04 16:37:13.105 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_info
+2014-08-04 16:37:13.119 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [netflowin, memuserate, is_vm, memo, cupuserate, ip_address_4, ip_address_3, flowinrate, os_statu, sysprocesses, os_passwd, modified_by, ip_address_1, snmp_passwd, ip_address_2, flowoutrate, ipmiip, os_bit, created_by, server_id, date_modified, hduserate, ipmipassword, os_version, os_name, os_user, data_created, manage_name, curenttime, os_id, snmp_user, ipmiusername, netflowout]
+2014-08-04 16:37:13.131 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkb97d1e29b04d142, fkb97d1e29f5357b15]
+2014-08-04 16:37:13.143 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkb97d1e29b04d142, primary, fkb97d1e29f5357b15]
+2014-08-04 16:37:13.463 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.os_sensorenitity
+2014-08-04 16:37:13.475 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [id, sensorname, reading, os_sensor, os_sernsor, sensorid, ip]
+2014-08-04 16:37:13.488 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fkecd148549940fbc, fkecd148573b650b4]
+2014-08-04 16:37:13.513 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fkecd148549940fbc, primary, fkecd148573b650b4]
+2014-08-04 16:37:13.892 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] table found: hostmonitor.server_manage_info
+2014-08-04 16:37:13.905 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] columns: [created_by, server_label, server_id, store_order_id, model, cpu_cs, date_modified, domain_id, cpu_core_num, date_created, cpu_type, hd_size, hd_raid_type, nic_num, modified_by, have_cd_rom, have_standby_power, assct_id, mem_size]
+2014-08-04 16:37:13.917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] foreign keys: [fk2dbfd84c60f97162, fk2dbfd84cfe492bcf]
+2014-08-04 16:37:13.935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] indexes: [fk2dbfd84c60f97162, primary, domain_id, fk2dbfd84cfe492bcf]
+2014-08-04 16:37:13.983 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] schema update complete
+2014-08-04 16:37:14.005 INFO  [org.springframework.orm.hibernate3.HibernateTransactionManager] Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2ee1254d] of Hibernate SessionFactory for HibernateTransactionManager
+2014-08-04 16:37:14.038 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds

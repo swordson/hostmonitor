@@ -13,7 +13,7 @@ public class SensorEntity {
 	EntityId entityID;
 	int sensorID;
 	Double reading;
-	Long id;
+	private long id;
 	public OsInfo getInfo() {
 		return info;
 	}
@@ -62,13 +62,13 @@ public class SensorEntity {
 	public void setReading(Double reading) {
 		this.reading = reading;
 	}
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
-	
+
 	
 	
 	

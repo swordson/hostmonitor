@@ -292,6 +292,7 @@ public class OsInfo implements java.io.Serializable {
 		this.sensorList = sensorList;
 	}
 
+
 	
 
 	

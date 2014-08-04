@@ -103,10 +103,8 @@
 	    <column name="flowOutRate"></column>
 	    </property>
 	    <set name="sensorList">
-	    <key column="os_sensor"/>
+	    <key column="os_sernsor"/>
 	    <one-to-many class="cn.com.powerleader.model.SensorEntity"/>
-	    </set>
-
-		
+	    </set>	
 	</class>
 </hibernate-mapping>
