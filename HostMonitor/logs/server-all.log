@@ -22559,3 +22559,104 @@
 2014-08-04 09:03:53.859 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
 2014-08-04 09:03:53.921 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:317ms
 2014-08-04 09:03:53.957 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:03:55.049 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:03:55.049 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:55.049 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:55.049 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:03:55.050 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:03:55.243 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:03:55.300 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:309ms
+2014-08-04 09:03:55.351 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:03:56.467 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:03:56.468 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:56.468 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:56.468 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:03:56.468 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:03:56.664 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:03:56.717 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:312ms
+2014-08-04 09:03:56.763 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:03:57.863 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:03:57.863 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:57.864 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:57.864 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:03:57.864 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:03:58.052 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:03:58.108 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:300ms
+2014-08-04 09:03:58.159 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:03:59.265 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:03:59.266 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:59.266 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:03:59.266 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:03:59.266 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:03:59.518 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:03:59.622 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:411ms
+2014-08-04 09:03:59.688 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:00.800 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:00.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:00.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:00.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:00.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:01.036 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:01.084 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:340ms
+2014-08-04 09:04:01.135 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:02.239 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:02.240 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:02.240 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:02.240 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:02.240 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:02.431 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:02.517 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:332ms
+2014-08-04 09:04:02.576 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:03.664 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:03.665 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:03.665 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:03.665 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:03.665 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:03.859 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:03.973 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:364ms
+2014-08-04 09:04:04.020 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:05.113 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:05.114 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:05.114 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:05.114 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:05.114 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:05.311 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:05.418 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:362ms
+2014-08-04 09:04:05.476 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:06.585 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:06.585 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:06.585 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:06.585 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:06.585 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:06.780 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:06.835 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:306ms
+2014-08-04 09:04:06.895 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:08.000 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:08.000 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:08.000 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:08.001 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:08.001 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:08.195 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:08.269 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:323ms
+2014-08-04 09:04:08.318 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:09.419 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:09.420 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:09.420 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:09.420 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:09.420 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:09.621 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:09.694 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:329ms
+2014-08-04 09:04:09.747 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:10.851 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:10.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:10.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:10.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:10.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 09:04:11.044 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 09:04:11.192 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:396ms
+2014-08-04 09:04:11.245 INFO  [cn.com.powerleader.snmpif.OsServer2] Os status monitoring process is started, Time interval is 5 seconds
+2014-08-04 09:04:12.353 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 09:04:12.354 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:12.354 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 09:04:12.354 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 09:04:12.354 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
