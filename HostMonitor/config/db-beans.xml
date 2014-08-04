@@ -11,6 +11,7 @@
 				<value>cn/com/powerleader/model/OsInfo.hbm.xml</value>
 				<value>cn/com/powerleader/model/Domain.hbm.xml</value>
 				<value>cn/com/powerleader/model/ServerManageInfo.hbm.xml</value>
+				<value>cn/com/powerleader/model/SensorEnitity.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">

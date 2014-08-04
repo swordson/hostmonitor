@@ -102,6 +102,10 @@
 	     <property name="flowOutRate" type="float">
 	    <column name="flowOutRate"></column>
 	    </property>
+	    <set name="sensorList">
+	    <key column="os_sensor"/>
+	    <one-to-many class="cn.com.powerleader.model.SensorEntity"/>
+	    </set>
 
 		
 	</class>

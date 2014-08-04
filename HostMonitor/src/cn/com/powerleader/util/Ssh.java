@@ -105,8 +105,6 @@ public class Ssh {
 		} catch (IOException e) {
 			logger.info("There was a problem while connecting to "+hostname+" with SSH Protocal");
 			return flag;
-		} finally {
-			conn.close();
 		}
 	}
 	 
