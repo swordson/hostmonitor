@@ -2282,3 +2282,912 @@
 2014-08-04 15:25:41.659 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
 2014-08-04 15:25:41.660 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
 2014-08-04 15:25:41.707 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:436ms
+2014-08-04 15:25:46.800 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:46.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:46.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:46.801 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:25:46.802 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:25:47.001 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:25:47.097 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:47.098 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:25:47.158 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:408ms
+2014-08-04 15:25:52.252 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:52.253 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:52.254 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:52.254 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:25:52.255 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:25:52.452 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:25:52.616 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:52.616 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:25:52.685 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:480ms
+2014-08-04 15:25:57.815 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:57.816 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:57.817 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:25:57.817 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:25:57.817 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:25:58.027 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:25:58.142 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:25:58.143 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:25:58.186 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:415ms
+2014-08-04 15:26:03.395 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:03.396 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:03.396 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:03.397 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:03.397 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:03.601 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:03.705 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:03.705 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:03.761 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:418ms
+2014-08-04 15:26:08.862 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:08.863 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:08.863 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:08.864 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:08.864 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:09.080 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:09.428 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:09.428 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:09.661 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:856ms
+2014-08-04 15:26:14.758 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:14.759 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:14.760 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:14.760 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:14.760 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:15.123 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:15.245 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:15.245 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:15.322 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:607ms
+2014-08-04 15:26:20.414 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:20.414 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:20.414 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:20.415 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:20.415 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:20.609 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:20.790 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:20.790 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:20.839 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:467ms
+2014-08-04 15:26:26.291 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:26.292 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:26.292 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:26.293 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:26.293 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:26.538 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:26.642 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:26.643 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:26.732 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:492ms
+2014-08-04 15:26:31.806 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:31.806 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:31.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:31.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:31.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:32.002 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:32.098 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:32.098 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:32.159 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:391ms
+2014-08-04 15:26:37.243 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:37.246 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:37.246 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:37.246 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:37.246 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:37.458 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:37.591 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:37.592 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:37.667 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:472ms
+2014-08-04 15:26:42.792 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:42.794 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:42.794 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:42.794 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:42.794 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:42.996 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:43.088 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:43.088 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:43.127 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:408ms
+2014-08-04 15:26:48.340 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:48.341 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:48.341 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:48.341 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:48.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:48.542 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:48.645 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:48.645 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:48.687 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:410ms
+2014-08-04 15:26:53.782 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:53.783 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:53.783 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:53.783 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:53.783 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:53.976 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:54.204 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:54.204 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:54.254 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:513ms
+2014-08-04 15:26:59.363 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:59.363 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:59.364 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:26:59.364 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:26:59.364 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:26:59.552 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:26:59.653 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:26:59.653 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:26:59.688 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:366ms
+2014-08-04 15:27:04.779 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:04.780 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:04.780 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:04.780 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:04.780 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:05.062 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:05.149 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:05.149 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:05.198 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:460ms
+2014-08-04 15:27:10.318 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:10.319 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:10.319 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:10.319 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:10.319 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:10.573 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:10.690 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:10.690 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:10.741 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:462ms
+2014-08-04 15:27:15.821 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:15.822 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:15.822 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:15.822 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:15.823 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:16.025 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:16.146 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:16.146 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:16.200 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:423ms
+2014-08-04 15:27:21.490 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:21.491 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:21.491 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:21.491 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:21.492 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:21.700 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:21.819 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:21.819 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:21.860 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:614ms
+2014-08-04 15:27:26.954 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:26.955 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:26.955 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:26.955 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:26.955 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:27.150 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:27.291 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:27.291 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:27.353 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:443ms
+2014-08-04 15:27:32.444 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:32.445 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:32.445 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:32.445 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:32.445 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:32.629 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:32.720 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:32.721 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:32.778 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:374ms
+2014-08-04 15:27:37.851 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:37.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:37.851 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:37.852 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:37.852 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:38.046 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:38.142 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:38.142 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:38.195 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:384ms
+2014-08-04 15:27:43.341 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:43.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:43.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:43.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:43.343 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:43.537 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:43.670 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:43.670 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:43.706 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:413ms
+2014-08-04 15:27:48.801 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:48.802 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:48.802 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:48.802 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:48.802 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:49.080 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:49.174 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:49.174 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:49.232 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:472ms
+2014-08-04 15:27:54.317 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:54.317 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:54.317 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:54.317 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:54.318 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:27:54.568 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:27:54.686 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:54.686 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:27:54.741 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:463ms
+2014-08-04 15:27:59.870 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:27:59.872 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:59.872 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:27:59.872 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:27:59.872 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:00.069 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:00.160 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:00.160 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:00.210 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:391ms
+2014-08-04 15:28:05.296 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:05.297 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:05.297 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:05.297 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:05.297 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:05.788 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:05.873 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:05.873 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:05.918 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:662ms
+2014-08-04 15:28:10.990 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:10.990 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:10.991 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:10.991 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:10.991 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:11.214 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:11.311 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:11.311 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:11.361 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:413ms
+2014-08-04 15:28:16.454 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:16.455 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:16.455 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:16.455 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:16.455 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:16.657 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:16.765 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:16.766 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:16.837 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:426ms
+2014-08-04 15:28:21.921 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:21.922 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:21.922 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:21.922 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:21.922 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:22.118 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:22.219 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:22.219 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:22.296 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:416ms
+2014-08-04 15:28:27.375 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:27.376 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:27.376 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:27.377 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:27.377 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:27.595 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:27.696 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:27.697 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:27.747 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:414ms
+2014-08-04 15:28:32.824 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:32.824 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:32.825 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:32.825 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:32.825 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:33.115 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:33.235 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:33.235 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:33.291 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:509ms
+2014-08-04 15:28:38.381 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:38.382 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:38.382 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:38.382 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:38.383 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:38.616 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:38.722 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:38.722 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:38.783 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:441ms
+2014-08-04 15:28:43.871 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:43.872 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:43.873 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:43.873 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:43.873 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:44.068 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:44.219 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:44.219 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:44.287 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:457ms
+2014-08-04 15:28:49.381 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:49.382 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:49.383 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:49.383 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:49.383 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:49.584 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:49.752 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:49.753 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:49.855 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:520ms
+2014-08-04 15:28:55.237 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:55.238 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:55.239 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:28:55.239 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:28:55.240 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:28:55.734 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:28:55.989 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:28:55.989 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:28:56.092 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:1056ms
+2014-08-04 15:29:02.031 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:02.031 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:02.032 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:02.032 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:02.032 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:02.711 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:03.493 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:03.493 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:03.795 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:2200ms
+2014-08-04 15:29:08.922 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:08.925 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:08.926 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:08.927 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:08.927 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:09.230 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:09.379 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:09.379 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:09.435 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:592ms
+2014-08-04 15:29:14.579 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:14.580 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:14.581 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:14.581 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:14.581 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:14.837 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:15.130 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:15.130 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:15.275 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:765ms
+2014-08-04 15:29:20.403 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:20.403 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:20.404 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:20.404 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:20.404 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:20.601 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:20.962 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:20.962 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:21.043 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:685ms
+2014-08-04 15:29:26.135 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:26.136 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:26.136 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:26.137 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:26.137 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:26.455 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:26.753 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:26.754 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:26.970 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:877ms
+2014-08-04 15:29:32.078 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:32.080 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:32.080 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:32.080 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:32.080 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:32.281 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:32.547 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:32.547 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:32.989 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:967ms
+2014-08-04 15:29:38.083 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:38.084 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:38.084 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:38.084 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:38.084 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:38.301 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:38.683 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:38.683 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:38.973 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:939ms
+2014-08-04 15:29:44.062 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:44.063 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:44.063 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:44.063 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:44.063 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:44.254 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:44.358 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:44.358 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:44.463 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:446ms
+2014-08-04 15:29:49.563 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:49.564 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:49.564 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:49.564 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:49.565 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:49.755 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:49.847 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:49.848 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:49.897 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:378ms
+2014-08-04 15:29:54.971 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:54.972 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:54.972 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:29:54.973 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:29:54.973 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:29:55.168 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:29:55.274 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:29:55.274 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:29:55.314 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:383ms
+2014-08-04 15:30:00.407 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:00.408 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:00.408 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:00.408 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:00.408 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:00.607 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:00.767 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:00.768 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:00.824 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:461ms
+2014-08-04 15:30:05.922 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:05.922 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:05.923 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:05.923 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:05.923 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:06.122 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:06.249 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:06.250 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:06.327 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:449ms
+2014-08-04 15:30:11.610 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:11.611 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:11.611 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:11.611 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:11.611 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:11.863 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:12.003 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:12.003 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:12.059 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:687ms
+2014-08-04 15:30:17.163 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:17.164 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:17.164 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:17.165 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:17.165 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:17.356 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:17.466 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:17.466 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:17.503 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:391ms
+2014-08-04 15:30:22.613 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:22.613 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:22.614 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:22.614 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:22.614 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:22.804 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:22.894 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:22.894 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:22.937 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:367ms
+2014-08-04 15:30:28.022 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:28.023 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:28.023 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:28.024 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:28.024 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:28.222 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:28.329 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:28.330 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:28.506 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:522ms
+2014-08-04 15:30:33.860 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:33.861 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:33.862 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:33.862 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:33.862 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:34.088 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:34.187 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:34.187 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:34.239 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:570ms
+2014-08-04 15:30:39.322 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:39.323 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:39.323 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:39.324 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:39.324 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:39.510 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:39.601 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:39.601 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:39.657 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:378ms
+2014-08-04 15:30:44.741 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:44.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:44.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:44.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:44.742 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:44.954 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:45.040 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:45.040 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:45.082 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:381ms
+2014-08-04 15:30:50.294 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:50.296 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:50.296 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:50.296 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:50.296 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:50.681 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:50.847 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:50.847 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:50.965 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:769ms
+2014-08-04 15:30:56.051 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:56.052 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:56.052 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:30:56.052 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:30:56.052 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:30:56.257 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:30:56.391 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:30:56.391 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:30:56.586 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:586ms
+2014-08-04 15:31:01.675 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:01.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:01.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:01.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:01.677 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:01.883 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:02.009 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:02.010 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:02.061 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:438ms
+2014-08-04 15:31:07.350 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:07.350 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:07.350 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:07.351 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:07.351 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:07.555 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:07.671 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:07.672 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:07.712 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:604ms
+2014-08-04 15:31:12.796 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:12.797 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:12.797 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:12.797 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:12.797 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:13.000 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:13.103 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:13.103 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:13.172 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:418ms
+2014-08-04 15:31:18.259 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:18.259 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:18.260 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:18.260 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:18.260 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:18.544 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:18.780 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:18.780 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:18.816 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:600ms
+2014-08-04 15:31:23.915 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:23.917 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:23.917 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:23.918 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:23.918 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:24.122 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:24.218 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:24.218 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:24.273 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:406ms
+2014-08-04 15:31:29.372 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:29.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:29.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:29.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:29.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:29.562 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:29.656 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:29.657 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:29.717 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:389ms
+2014-08-04 15:31:34.806 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:34.806 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:34.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:34.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:34.807 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:35.011 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:35.118 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:35.119 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:35.167 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:402ms
+2014-08-04 15:31:40.294 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:40.295 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:40.295 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:40.295 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:40.295 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:40.493 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:40.648 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:40.648 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:40.710 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:495ms
+2014-08-04 15:31:45.785 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:45.785 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:45.785 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:45.786 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:45.786 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:45.972 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:46.125 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:46.125 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:46.170 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:424ms
+2014-08-04 15:31:51.254 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:51.255 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:51.255 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:51.255 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:51.255 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:51.453 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:51.546 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:51.546 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:51.596 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:379ms
+2014-08-04 15:31:56.702 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:56.704 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:56.704 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:31:56.704 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:31:56.705 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:31:56.904 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:31:57.018 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:31:57.018 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:31:57.105 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:447ms
+2014-08-04 15:32:02.193 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:02.193 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:02.194 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:02.194 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:02.194 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:02.383 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:02.529 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:02.529 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:02.565 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:410ms
+2014-08-04 15:32:07.642 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:07.643 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:07.643 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:07.644 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:07.644 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:07.840 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:07.933 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:07.933 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:07.974 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:374ms
+2014-08-04 15:32:13.050 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:13.051 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:13.051 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:13.051 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:13.051 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:13.313 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:13.517 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:13.517 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:13.608 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:600ms
+2014-08-04 15:32:18.681 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:18.681 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:18.682 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:18.682 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:18.682 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:18.872 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:19.033 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:19.034 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:19.161 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:519ms
+2014-08-04 15:32:24.233 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:24.234 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:24.234 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:24.234 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:24.235 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:24.432 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:24.547 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:24.547 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:24.619 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:424ms
+2014-08-04 15:32:29.704 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:29.705 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:29.706 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:29.706 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:29.706 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:29.900 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:30.018 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:30.018 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:30.120 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:454ms
+2014-08-04 15:32:35.217 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:35.217 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:35.218 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:35.218 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:35.218 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:35.417 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:35.548 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:35.548 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:35.612 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:434ms
+2014-08-04 15:32:40.684 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:40.685 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:40.685 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:40.685 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:40.685 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:40.887 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:40.987 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:40.987 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:41.039 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:393ms
+2014-08-04 15:32:46.116 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:46.116 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:46.117 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:46.117 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:46.117 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:46.316 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:46.444 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:46.444 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:46.608 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:531ms
+2014-08-04 15:32:51.683 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:51.684 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:51.684 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:51.684 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:51.685 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:51.875 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:52.000 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:52.001 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:52.040 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:397ms
+2014-08-04 15:32:57.138 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:57.138 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:57.139 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:32:57.139 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:32:57.139 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:32:57.416 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:32:57.536 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:32:57.537 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:32:57.601 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:507ms
+2014-08-04 15:33:02.675 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:02.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:02.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:02.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:02.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:02.911 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:03.037 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:03.037 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:03.093 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:458ms
+2014-08-04 15:33:08.372 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:08.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:08.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:08.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:08.373 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:08.603 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:08.697 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:08.697 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:08.777 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:652ms
+2014-08-04 15:33:13.866 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:13.867 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:13.867 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:13.867 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:13.867 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:14.062 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:14.159 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:14.160 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:14.195 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:369ms
+2014-08-04 15:33:19.282 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:19.282 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:19.283 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:19.283 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:19.283 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:19.479 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:19.615 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:19.615 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:19.655 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:421ms
+2014-08-04 15:33:24.924 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:24.925 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:24.925 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:24.925 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:24.925 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:25.115 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:25.204 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:25.204 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:25.256 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:567ms
+2014-08-04 15:33:30.341 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:30.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:30.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:30.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:30.342 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:30.548 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:30.688 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:30.688 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:30.754 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:453ms
+2014-08-04 15:33:35.835 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:35.836 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:35.836 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:35.836 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:35.836 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:36.095 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:36.210 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:36.211 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:36.250 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:455ms
+2014-08-04 15:33:41.335 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:41.336 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:41.336 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:41.336 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:41.337 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:41.527 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:41.640 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:41.640 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:41.877 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:581ms
+2014-08-04 15:33:47.004 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:47.005 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:47.005 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:47.006 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:47.006 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:47.206 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:47.336 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:47.336 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:47.394 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:455ms
+2014-08-04 15:33:52.514 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:52.516 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:52.517 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:52.517 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:52.518 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:52.715 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:52.819 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:52.819 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:52.869 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:394ms
+2014-08-04 15:33:57.945 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:57.945 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:57.946 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:33:57.946 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:33:57.946 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:33:58.133 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:33:58.318 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:33:58.318 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:33:58.441 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:536ms
+2014-08-04 15:34:03.517 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:03.518 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:03.518 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:03.518 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:03.519 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:03.710 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:03.799 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:03.799 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:03.856 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:377ms
+2014-08-04 15:34:08.942 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:08.943 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:08.943 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:08.943 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:08.943 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:09.138 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:09.236 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:09.236 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:09.281 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:379ms
+2014-08-04 15:34:14.369 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:14.370 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:14.370 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:14.370 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:14.371 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:14.579 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:14.680 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:14.681 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:14.754 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:425ms
+2014-08-04 15:34:19.836 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:19.837 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:19.837 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:19.837 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:19.837 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:20.052 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:20.171 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:20.172 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:20.216 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:420ms
+2014-08-04 15:34:25.298 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:25.299 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:25.299 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:25.299 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:25.300 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:25.513 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:25.600 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:25.600 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:25.643 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:383ms
+2014-08-04 15:34:30.731 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:30.732 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:30.732 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:30.732 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:30.733 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:30.979 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:31.118 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:31.119 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:31.168 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:478ms
+2014-08-04 15:34:36.258 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:36.258 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:36.259 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:36.259 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:36.259 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:36.456 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:36.596 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:36.596 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:36.636 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:421ms
+2014-08-04 15:34:41.721 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:41.722 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:41.722 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:41.722 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:41.722 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:41.918 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:42.011 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:42.011 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:42.054 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:370ms
+2014-08-04 15:34:47.159 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:47.160 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:47.160 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:47.160 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:47.160 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:47.350 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:47.486 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:47.487 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:47.555 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:443ms
+2014-08-04 15:34:52.675 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:52.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:52.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:52.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:52.676 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:52.863 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:52.950 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:52.950 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:53.006 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:371ms
+2014-08-04 15:34:58.091 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:58.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:58.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:34:58.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:34:58.092 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:34:58.302 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:34:58.392 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:34:58.393 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:34:58.467 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:416ms
+2014-08-04 15:35:03.552 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:35:03.553 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:35:03.553 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting retries: 3
+2014-08-04 15:35:03.553 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting idleTime: 4000
+2014-08-04 15:35:03.553 INFO  [com.veraxsystems.vxipmi.common.PropertiesManager] Getting timeout: 10000
+2014-08-04 15:35:03.796 INFO  [cn.com.powerleader.service.impl.IpmiServiceIpml] get all sensor reading DORUN() over!
+2014-08-04 15:35:03.884 INFO  [cn.com.powerleader.snmpif.OsServer2] There was a problem while connecting to null with SNMP Protocal
+2014-08-04 15:35:03.884 INFO  [cn.com.powerleader.snmpif.OsServer2] java.lang.NullPointerException
+2014-08-04 15:35:03.967 INFO  [cn.com.powerleader.snmpif.OsServer2] The monitor takes:456ms

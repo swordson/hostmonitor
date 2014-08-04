@@ -8,11 +8,15 @@ import java.io.LineNumberReader;
 import java.text.MessageFormat;
 import java.util.ArrayList;  
 import java.util.List;
+
 import org.apache.log4j.Logger;
+
 import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.Session;
 import ch.ethz.ssh2.StreamGobbler;
+
 import java.lang.InterruptedException;
+import java.net.InetAddress;
 
 public class Ssh {
 	
@@ -83,6 +87,20 @@ public class Ssh {
 			//参数说明conn.connect(ServerHostKeyVerifier verifier, int connectTimeout, int kexTimeout)
 			conn.connect(null, SSH_CONN_TIME_OUT, SSH_KEX_TIME_OUT);
 			flag = true;
+			return flag;
+		} catch (IOException e) {
+			logger.info("There was a problem while connecting to "+hostname+" with SSH Protocal");
+			return flag;
+		} finally {
+			conn.close();
+		}
+	}
+	public static Boolean validateSsh2(String hostname) {
+		Boolean flag = false;
+		Connection conn = null;
+		try {
+			InetAddress address=InetAddress.getByName(hostname);
+			flag = address.isReachable(2000);
 			return flag;
 		} catch (IOException e) {
 			logger.info("There was a problem while connecting to "+hostname+" with SSH Protocal");

@@ -118,8 +118,8 @@ public class OsServer2 {
 			//TODO:目前验证服务器是否在线的机制不够科学
 			
 				
-				if (Ssh.validateSsh(os.getIpAddress1())
-						|| Ssh.validateSsh(os.getIpAddress2())) {
+				if (Ssh.validateSsh2(os.getIpAddress1())
+						|| Ssh.validateSsh2(os.getIpAddress2())) {
 					os.setOsStatu(ONLINE);
 				
 					try {
